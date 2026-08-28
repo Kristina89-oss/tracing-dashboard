@@ -1,0 +1,13 @@
+# Runtime cache (downloaded blocklists, live-fetched Tether history, bridgetrail log)
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets -- API keys live in the sibling client projects' .env files, but
+# ignore one here too in case a local override is ever added.
+.env
+
+# Editor/OS cruft
+.DS_Store

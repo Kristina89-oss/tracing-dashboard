@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tracing Dashboard</title>
+<style>
+  :root { color-scheme: dark; }
+  body { font-family: -apple-system, Segoe UI, Arial, sans-serif; background:#0f1115; color:#e6e6e6; margin:0; padding:24px 32px 60px; }
+  h1 { font-size: 20px; margin-bottom:4px; }
+  .sub { color:#9aa0a6; margin-bottom:18px; font-size:13px; }
+  nav a { color:#60a5fa; font-size:13px; text-decoration:none; }
+  nav a:hover { text-decoration:underline; }
+  form { background:#181b21; border:1px solid #2a2e37; border-radius:10px; padding:20px; margin:16px 0 28px; }
+  label { display:block; font-size:13px; color:#b8bec7; margin-bottom:6px; }
+  input[type=text] { width:100%; box-sizing:border-box; background:#0f1115; border:1px solid #333844; color:#e6e6e6; padding:11px 12px; border-radius:6px; font-family:monospace; font-size:15px; margin-bottom:6px; }
+  button { background:#3b82f6; color:white; border:none; padding:11px 22px; border-radius:6px; font-size:14px; cursor:pointer; margin-top:10px; }
+  button:hover { background:#2563eb; }
+  details { margin-top:10px; }
+  summary { cursor:pointer; font-size:12.5px; color:#9aa0a6; }
+  .adv-row { display:flex; gap:16px; margin-top:10px; flex-wrap:wrap; }
+  .adv-row label { margin-bottom:4px; }
+  .adv-row input { width:220px; margin-bottom:0; font-size:13px; padding:8px 10px; }
+
+  .section { background:#181b21; border:1px solid #2a2e37; border-radius:10px; padding:18px 20px; margin-bottom:18px; }
+  .section h2 { font-size:15px; margin:0 0 12px; color:#e6e6e6; }
+  .section h3 { font-size:12.5px; color:#9aa0a6; margin:14px 0 8px; text-transform:uppercase; letter-spacing:.03em; }
+  .ok { color:#4ade80; } .err { color:#f87171; } .warn { color:#fbbf24; }
+  table { width:100%; border-collapse: collapse; font-size:12.5px; }
+  th, td { text-align:left; padding:6px 8px; border-bottom:1px solid #262a33; font-family:monospace; }
+  th { color:#9aa0a6; font-weight:600; }
+  .mono { font-family:monospace; word-break:break-all; }
+  .badge { display:inline-block; background:#2a2e37; padding:2px 8px; border-radius:20px; font-size:11px; color:#c8ccd2; }
+  .empty { color:#6b7280; font-style:italic; font-size:13px; }
+  a { color:#60a5fa; }
+
+  .risk-banner { border-radius:10px; padding:18px 20px; margin-bottom:18px; font-size:14px; }
+  .risk-high { background:#3b0d0d; border:1px solid #7f1d1d; }
+  .risk-medium { background:#3a2a0a; border:1px solid #92660a; }
+  .risk-low { background:#302f0a; border:1px solid #7a7211; }
+  .risk-none { background:#0d2a17; border:1px solid #14532d; }
+  .risk-score { font-size:26px; font-weight:700; margin-right:10px; }
+  .risk-high .risk-score { color:#f87171; }
+  .risk-medium .risk-score { color:#fb923c; }
+  .risk-low .risk-score { color:#fde047; }
+  .risk-none .risk-score { color:#4ade80; }
+
+  .flag-row { display:flex; align-items:flex-start; gap:10px; padding:9px 0; border-bottom:1px solid #21242c; }
+  .flag-row:last-child { border-bottom:none; }
+  .dot { width:11px; height:11px; border-radius:50%; margin-top:3px; flex:none; }
+  .dot-hit-critical { background:#ef4444; }
+  .dot-hit-high { background:#f97316; }
+  .dot-hit-medium { background:#eab308; }
+  .dot-hit-low { background:#38bdf8; }
+  .dot-clear { background:#22543d; border:1px solid #2f7a54; }
+  .flag-title { font-size:13.5px; font-weight:600; }
+  .flag-detail { font-size:12.5px; color:#9aa0a6; margin-top:2px; }
+
+  .heatmap { border-collapse: collapse; font-size:10px; }
+  .heatmap td { width:15px; height:15px; padding:0; border:1px solid #14161b; text-align:center; }
+  .heatmap th { font-size:9px; color:#6b7280; font-weight:400; padding:2px 3px; }
+  .heatmap .daylabel { font-size:10px; color:#9aa0a6; text-align:right; padding-right:6px; font-family:monospace; }
+
+  .osint-hit { margin-bottom:12px; }
+  .osint-hit .snippet { color:#9aa0a6; font-size:12px; }
+</style>
+</head>
+<body>
+  <h1>Tracing Dashboard</h1>
+  <div class="sub">Investigation tool: FATF scoring &middot; sanctions/freezes &middot; mixers/bridges &middot; activity &middot; OSINT — local only, nothing is published</div>
+  <nav><a href="/bridge">Standalone bridge tracer (bridgetrail) &rarr;</a></nav>
+
+  <form method="post">
+    <label>Address or transaction hash</label>
+    <input type="text" name="query" value="{{ form.query }}" placeholder="0xAddress, 0xTxHash, Monero/BTC address, etc." autofocus>
+    <button type="submit">Check</button>
+
+    <details>
+      <summary>Advanced options</summary>
+      <div class="adv-row">
+        <div>
+          <label>Known investigation graph (don't treat these addresses as an "exit"), comma-separated</label>
+          <input type="text" name="known_graph" value="{{ form.known_graph }}" placeholder="0xabc...,0xdef...">
+        </div>
+        <div>
+          <label>"Large transfer" threshold, $</label>
+          <input type="text" name="min_usd" value="{{ form.min_usd }}">
+        </div>
+      </div>
+    </details>
+  </form>
+
+  {% if results %}
+
+    {% if results.kind == "tx" %}
+      {% if results.resolve_error %}
+        <div class="section"><p class="err">{{ results.resolve_error }}</p></div>
+      {% else %}
+        <div class="section">
+          <h2>Transaction</h2>
+          <p>Hash: <span class="mono">{{ results.query }}</span></p>
+          <p>From: <span class="mono">{{ results.tx.from }}</span> &rarr; To: <span class="mono">{{ results.tx.to }}</span></p>
+          <p>Value: {{ "%.6f"|format(results.tx.value|int(0,16) / 10**18) }} ETH</p>
+          <p class="empty">The analysis below covers the sender address ({{ results.resolved_address }}).</p>
+        </div>
+
+        {% if results.bridge %}
+        <div class="section">
+          <h2>Bridge trace</h2>
+          {% if results.bridge.ok %}
+            {% if results.bridge.leaves %}
+              <p>Dead-end nodes (bridges stop here): <span class="badge">{{ results.bridge.leaves|length }}</span> &middot; <a href="/bridge?chain=ethereum&tx_hash={{ results.query }}">details →</a></p>
+              {% for leaf in results.bridge.leaves[:5] %}
+                <p class="mono" style="font-size:12px;">{{ leaf.path }}{% if leaf.stopReason %} <span class="badge">{{ leaf.stopReason }}</span>{% endif %}</p>
+              {% endfor %}
+            {% else %}<p class="empty">No bridge hops found.</p>{% endif %}
+          {% else %}
+            <p class="empty">{{ results.bridge.error }}</p>
+          {% endif %}
+        </div>
+        {% endif %}
+      {% endif %}
+    {% endif %}
+
+    {% if results.kind == "other" %}
+      <div class="section">
+        <h2>External exposure (not an ETH address or tx hash)</h2>
+        <p class="empty">On-chain analysis isn't available for BTC/Monero and arbitrary strings — we look for the string reappearing in public sources instead.</p>
+        <h3>Chainabuse</h3>
+        {% if results.chainabuse.error %}
+          <p class="err">Error: {{ results.chainabuse.error }}</p>
+        {% else %}
+          <p>Reports found: <span class="badge">{{ results.chainabuse.count }}</span></p>
+          {% for r in results.chainabuse.reports %}<p>[{{ r.scamCategory }}] id={{ r.id }} &middot; {{ r.createdAt }} &middot; trusted={{ r.trusted }}</p>{% endfor %}
+        {% endif %}
+        <h3>Public web search</h3>
+        {% if results.osint_web %}
+          {% for h in results.osint_web %}
+            <div class="osint-hit"><a href="{{ h.url }}" target="_blank">{{ h.title }}</a><br><span class="snippet">{{ h.snippet[:200] }}</span></div>
+          {% endfor %}
+        {% else %}<p class="empty">No public mentions found.</p>{% endif %}
+        {% if results.ransomlook %}
+          <h3>RansomLook (addresses from ransomware leak sites)</h3>
+          {% if results.ransomlook.ok %}
+            {% if results.ransomlook.found %}
+              <p class="warn">⚠ Match found — group: <b>{{ results.ransomlook.data.family or results.ransomlook.data.group }}</b>
+                &middot; transactions: {{ results.ransomlook.data.tx_count }}
+                &middot; balance ≈${{ "%.2f"|format(results.ransomlook.data.balanceUSD or 0) }}</p>
+            {% else %}<p class="empty">No match found.</p>{% endif %}
+          {% else %}<p class="err">Unavailable: {{ results.ransomlook.error }}</p>{% endif %}
+        {% endif %}
+        {% if results.local_lists %}
+          <h3>Local lists (sanctions / investigations)</h3>
+          {% if results.local_lists.ofac %}<p class="warn">⚠ Found in OFAC SDN as "{{ results.local_lists.ofac.name }}".</p>{% endif %}
+          {% if results.local_lists.scamsniffer %}<p class="warn">⚠ Found in the ScamSniffer blocklist.</p>{% endif %}
+          {% if results.local_lists.chainabuse_manual %}<p class="warn">⚠ Found in the manually-collected Chainabuse sample.</p>{% endif %}
+          {% if results.local_lists.kristina %}<p class="warn">⚠ Found in an investigation: "<a href="{{ results.local_lists.kristina.repo_url }}" target="_blank">{{ results.local_lists.kristina.case }}</a>".</p>{% endif %}
+          {% if results.local_lists.third_party %}<p class="warn">⚠ Found in an investigation: "<a href="{{ results.local_lists.third_party.repo_url }}" target="_blank">{{ results.local_lists.third_party.case }}</a>".</p>{% endif %}
+        {% endif %}
+        <h3>Manual OSINT search (no free API)</h3>
+        <p class="empty">
+          <a href="https://intelx.io/?s={{ results.query }}" target="_blank">Intelligence X (darknet/forums/leaks) →</a><br>
+          <a href="https://metasleuth.io/result/search?q={{ results.query }}" target="_blank">MetaSleuth (multichain tracing, address labels) →</a><br>
+          <a href="https://arkm.com/explorer?search={{ results.query }}" target="_blank">Arkham Intel (login required) →</a><br>
+          <a href="https://usdc.range.org/" target="_blank">Range — CCTP/cross-chain explorer →</a><br>
+          <a href="https://explorer.pulsy.app/" target="_blank">Pulsy — bridge transaction aggregator →</a>
+        </p>
+      </div>
+    {% endif %}
+
+    {% set a = results.analysis %}
+    {% if a %}
+      {% if a.fatal_error %}
+        <div class="section"><p class="err">Error: {{ a.fatal_error }}</p></div>
+      {% else %}
+
+        {% if a.warnings %}
+          <div class="section">{% for w in a.warnings %}<p class="warn">⚠ {{ w }}</p>{% endfor %}</div>
+        {% endif %}
+
+        <div class="risk-banner risk-{{ a.fatf.level if a.fatf.score else 'none' }}">
+          <span class="risk-score">{{ a.fatf.score }}</span>
+          <b>Overall risk level: {{ a.fatf.level }}</b>
+          {% if a.fatf.forced_high_risk %}
+          <p style="margin:8px 0 0; font-size:12.5px; color:#c8ccd2;">⚡ Forced: this address or a counterparty was found in an investigation (see below) — this is a direct match, not a sum of heuristics.</p>
+          {% else %}
+          <p style="margin:8px 0 0; font-size:12.5px; color:#c8ccd2;">This score is a sum of the heuristic indicators below, not proof. Always verify manually.</p>
+          {% endif %}
+        </div>
+
+        <div class="section">
+          <h2>Address: <span class="mono">{{ a.address }}</span></h2>
+          <p>Balance: <b>{{ "%.6f"|format(a.balance) }} ETH</b> &middot; normal transactions: {{ a.normal_count }} &middot; ERC-20 transfers: {{ a.erc20_count }}
+          {% if a.first_seen %} &middot; first seen: {{ a.first_seen | int | strftime }}{% endif %}
+          &middot; type: <b>{{ "contract" if a.is_contract else ("EOA (regular wallet)" if a.is_contract is not none else "unknown") }}</b>
+          &middot; <a href="https://etherscan.io/address/{{ a.address }}" target="_blank">Etherscan →</a></p>
+        </div>
+
+        <div class="section">
+          <h2>FATF money-laundering indicators</h2>
+          {% for f in a.fatf.flags %}
+            <div class="flag-row">
+              <div class="dot {{ 'dot-hit-' ~ f.severity if f.hit else 'dot-clear' }}"></div>
+              <div>
+                <div class="flag-title">{{ f.title }}{% if f.hit %} <span class="badge">detected</span>{% endif %}</div>
+                <div class="flag-detail">{{ f.detail }}</div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+
+        {% if a.kristina_self or a.sanctions.kristina %}
+        <div class="section" style="border-color:#3b82f6;">
+          <h2>⚡ Found in investigations</h2>
+          <table><tr><th>Address</th><th>Case</th><th>Role/risk</th></tr>
+          {% if a.kristina_self %}
+            <tr>
+              <td class="mono">{{ a.address }} <span class="badge">this address</span></td>
+              <td><a href="{{ a.kristina_self.repo_url }}" target="_blank">{{ a.kristina_self.case }} →</a></td>
+              <td>{{ a.kristina_self.role or a.kristina_self.risk or '' }}</td>
+            </tr>
+          {% endif %}
+          {% for h in a.sanctions.kristina %}
+            <tr>
+              <td class="mono">{{ h.address }}</td>
+              <td><a href="{{ h.repo_url }}" target="_blank">{{ h.case }} →</a></td>
+              <td>{{ h.role or h.risk or '' }}</td>
+            </tr>
+          {% endfor %}
+          </table>
+        </div>
+        {% endif %}
+
+        {% if a.third_party_self or a.sanctions.third_party %}
+        <div class="section" style="border-color:#7c3aed;">
+          <h2>🔎 Found in investigations</h2>
+          <table><tr><th>Address</th><th>Case</th><th>Role</th></tr>
+          {% if a.third_party_self %}
+            <tr>
+              <td class="mono">{{ a.address }} <span class="badge">this address</span></td>
+              <td><a href="{{ a.third_party_self.repo_url }}" target="_blank">{{ a.third_party_self.case }} →</a></td>
+              <td>{{ a.third_party_self.role or a.third_party_self.chain or '' }}</td>
+            </tr>
+          {% endif %}
+          {% for h in a.sanctions.third_party %}
+            <tr>
+              <td class="mono">{{ h.address }}</td>
+              <td><a href="{{ h.repo_url }}" target="_blank">{{ h.case }} →</a></td>
+              <td>{{ h.role or h.chain or '' }}</td>
+            </tr>
+          {% endfor %}
+          </table>
+        </div>
+        {% endif %}
+
+        <div class="section">
+          <h2>Sanctions and freezes</h2>
+          <h3>OFAC (SDN) — counterparties</h3>
+          {% if a.sanctions.ofac %}
+            <table><tr><th>Address</th><th>Who/what it is</th></tr>
+            {% for h in a.sanctions.ofac %}<tr><td class="mono">{{ h.address }}</td><td>{{ h.name }}</td></tr>{% endfor %}
+            </table>
+          {% else %}<p class="empty">None found.</p>{% endif %}
+          <h3>USDT freeze history — counterparties</h3>
+          {% if a.sanctions.tether %}
+            <table><tr><th>Address</th><th>Frozen</th><th>Unfrozen</th></tr>
+            {% for h in a.sanctions.tether %}
+              <tr><td class="mono">{{ h.address }}</td><td>{{ h.added_at | int | strftime if h.added_at else '—' }}</td><td>{{ h.removed_at | int | strftime if h.removed_at else '—' }}</td></tr>
+            {% endfor %}
+            </table>
+          {% else %}<p class="empty">None found.</p>{% endif %}
+          <h3>ScamSniffer (phishing address blocklist) — counterparties</h3>
+          {% if a.sanctions.scamsniffer %}
+            <table><tr><th>Address</th></tr>
+            {% for addr in a.sanctions.scamsniffer %}<tr><td class="mono">{{ addr }}</td></tr>{% endfor %}
+            </table>
+          {% else %}<p class="empty">None found.</p>{% endif %}
+          <h3>Manual Chainabuse sample — counterparties</h3>
+          {% if a.sanctions.chainabuse_manual %}
+            <table><tr><th>Address</th></tr>
+            {% for addr in a.sanctions.chainabuse_manual %}<tr><td class="mono">{{ addr }}</td></tr>{% endfor %}
+            </table>
+          {% else %}<p class="empty">None found (this sample is small and not exhaustive).</p>{% endif %}
+        </div>
+
+        <div class="section">
+          <h2>Other threat intel sources</h2>
+          <h3>GoPlus Security (aggregates GoPlus, SlowMist, BlockSec)</h3>
+          {% if a.goplus.ok %}
+            {% if a.goplus.hits %}
+              <table><tr><th>Label</th></tr>
+              {% for label in a.goplus.hits.values() %}<tr><td>{{ label }}</td></tr>{% endfor %}
+              </table>
+              {% if a.goplus.data_source %}<p class="empty">Source: {{ a.goplus.data_source }}</p>{% endif %}
+            {% else %}<p class="empty">No malicious labels found.</p>{% endif %}
+          {% else %}<p class="err">Unavailable: {{ a.goplus.error }}</p>{% endif %}
+
+          <h3>RansomLook (addresses from ransomware leak sites)</h3>
+          {% if a.ransomlook.ok %}
+            {% if a.ransomlook.found %}
+              <p class="warn">⚠ Match found — group: <b>{{ a.ransomlook.data.family or a.ransomlook.data.group }}</b>
+                &middot; transactions: {{ a.ransomlook.data.tx_count }}
+                &middot; balance ≈${{ "%.2f"|format(a.ransomlook.data.balanceUSD or 0) }}</p>
+            {% else %}<p class="empty">No match found.</p>{% endif %}
+          {% else %}<p class="err">Unavailable: {{ a.ransomlook.error }}</p>{% endif %}
+
+          <h3>Manual OSINT search (no free API)</h3>
+          <p class="empty">
+            <a href="https://intelx.io/?s={{ a.address }}" target="_blank">Intelligence X (darknet/forums/leaks) →</a><br>
+            <a href="https://metasleuth.io/result/search?q={{ a.address }}" target="_blank">MetaSleuth (multichain tracing, address labels) →</a><br>
+            <a href="https://arkm.com/explorer?search={{ a.address }}" target="_blank">Arkham Intel (login required) →</a>
+          </p>
+          <h3>Bridge / cross-chain tracing (in addition to bridgetrail)</h3>
+          <p class="empty">
+            <a href="https://usdc.range.org/" target="_blank">Range — CCTP/cross-chain explorer (Circle CCTP, Wormhole, deBridge, Across, THORChain, etc.) →</a><br>
+            <a href="https://explorer.pulsy.app/" target="_blank">Pulsy — bridge transaction aggregator (70+ protocols) →</a>
+          </p>
+        </div>
+
+        <div class="section">
+          <h2>Mixers / privacy (Tornado Cash, Monero)</h2>
+          <h3>Direct Tornado Cash interactions</h3>
+          {% if a.mixer.tornado_hits %}
+            {% for h in a.mixer.tornado_hits %}<p>{{ h.pool }} &middot; {{ h.timestamp | int | strftime }} &middot; tx=<span class="mono">{{ h.hash }}</span></p>{% endfor %}
+          {% else %}<p class="empty">None found.</p>{% endif %}
+          <h3>Large transfers outside the known graph (exit candidates)</h3>
+          {% if a.mixer.candidates %}
+            <table><tr><th>Date</th><th>Amount</th><th>To</th><th>Tx</th></tr>
+            {% for c in a.mixer.candidates[:15] %}
+              <tr><td>{{ c.date }}</td><td>{{ "%.2f"|format(c.amount) }} {{ c.symbol }}</td><td class="mono">{{ c.to }}</td><td class="mono">{{ c.hash }}</td></tr>
+            {% endfor %}
+            </table>
+          {% else %}<p class="empty">None found.</p>{% endif %}
+          <h3>XMR price anomaly after large transfers (weak indirect signal)</h3>
+          {% if a.mixer.xmr_checks %}
+            {% for xc in a.mixer.xmr_checks %}
+              <p><b>{{ "%.2f"|format(xc.candidate.amount) }} {{ xc.candidate.symbol }}</b> &rarr; {{ xc.candidate.to }} ({{ xc.candidate.date }}):</p>
+              {% for an in xc.anomalies %}<p style="margin-left:14px; font-size:12px;">{{ an.date }} — price z={{ "%.2f"|format(an.price_zscore) }}, volume z={{ "%.2f"|format(an.volume_zscore) }}</p>{% endfor %}
+            {% endfor %}
+          {% else %}<p class="empty">Either there are no candidates large enough (≥$50,000), or no anomalies were found.</p>{% endif %}
+        </div>
+
+        <div class="section">
+          <h2>Activity over time</h2>
+          <h3>Heatmap (UTC, day of week × hour)</h3>
+          {% if a.heatmap.max %}
+          <table class="heatmap">
+            <tr><td></td>{% for hh in range(24) %}<th>{{ hh }}</th>{% endfor %}</tr>
+            {% for row in a.heatmap.grid %}
+            <tr>
+              <td class="daylabel">{{ a.heatmap.days[loop.index0] }}</td>
+              {% for cnt in row %}
+                {% set pct = (cnt / a.heatmap.max * 100) | round(0) %}
+                <td style="background: {% if cnt %}rgba(59,130,246,{{ 0.15 + pct/100*0.85 }}){% else %}#14161b{% endif %};" title="{{ cnt }} transactions">{{ cnt if cnt else '' }}</td>
+              {% endfor %}
+            </tr>
+            {% endfor %}
+          </table>
+          {% else %}<p class="empty">Not enough transactions for a heatmap.</p>{% endif %}
+
+          {% if a.lifetime_note %}
+            <h3>Wallet age and schedule</h3>
+            <p class="warn">{{ a.lifetime_note }}</p>
+          {% endif %}
+        </div>
+
+        <div class="section">
+          <h2>Largest transactions</h2>
+          {% if a.top_transactions %}
+            <table>
+              <tr><th>Date</th><th>Direction</th><th>Asset</th><th>Amount</th><th>≈USD</th><th>Counterparty</th><th>Tx</th></tr>
+              {% for t in a.top_transactions %}
+              <tr>
+                <td>{{ t.timestamp | int | strftime }}</td>
+                <td>{{ "outgoing" if t.direction == "out" else "incoming" }}</td>
+                <td>{{ t.asset }}</td>
+                <td>{{ "%.4f"|format(t.amount) }}</td>
+                <td>{{ "%.2f"|format(t.usd) if t.usd is not none else "—" }}</td>
+                <td class="mono">{{ t.to if t.direction == "out" else t.from }}</td>
+                <td class="mono">{{ t.hash }}</td>
+              </tr>
+              {% endfor %}
+            </table>
+          {% else %}<p class="empty">No significant transactions found.</p>{% endif %}
+
+          <h3>Largest counterparties (by total volume, top 3)</h3>
+          {% if a.top_counterparties %}
+            <table>
+              <tr><th>Address</th><th>Incoming</th><th>Outgoing</th><th>Total</th><th>Tx count</th></tr>
+              {% for c in a.top_counterparties %}
+              <tr>
+                <td class="mono">{{ c.address }}</td>
+                <td>${{ "{:,.2f}".format(c.in_usd) }}</td>
+                <td>${{ "{:,.2f}".format(c.out_usd) }}</td>
+                <td><b>${{ "{:,.2f}".format(c.total_usd) }}</b></td>
+                <td>{{ c.count }}</td>
+              </tr>
+              {% endfor %}
+            </table>
+          {% else %}<p class="empty">Not enough data to assess counterparties.</p>{% endif %}
+        </div>
+
+        <div class="section">
+          <h2>Chainabuse (scam reports)</h2>
+          {% if a.chainabuse.error %}
+            <p class="err">Error: {{ a.chainabuse.error }}</p>
+          {% else %}
+            <p>Reports found: <span class="badge">{{ a.chainabuse.count }}</span></p>
+            {% for r in a.chainabuse.reports %}<p>[{{ r.scamCategory }}] id={{ r.id }} &middot; {{ r.createdAt }} &middot; trusted={{ r.trusted }}</p>{% endfor %}
+          {% endif %}
+        </div>
+
+        <div class="section">
+          <h2>Public web search (OSINT)</h2>
+          {% if a.osint_web %}
+            {% for h in a.osint_web %}
+              <div class="osint-hit"><a href="{{ h.url }}" target="_blank">{{ h.title }}</a><br><span class="snippet">{{ h.snippet[:200] }}</span></div>
+            {% endfor %}
+          {% else %}<p class="empty">No public mentions found — either the address hasn't surfaced anywhere, or it isn't indexed yet. No traces doesn't mean no involvement.</p>{% endif %}
+        </div>
+
+      {% endif %}
+    {% endif %}
+
+  {% endif %}
+</body>
+</html>

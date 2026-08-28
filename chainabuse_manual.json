@@ -1,0 +1,30 @@
+{
+  "collected_at": "2026-08-28",
+  "source": "ручной просмотр публичной ленты chainabuse.com/reports (без API — квота исчерпана), страницы 1-3 и 11",
+  "note": "Небольшая нерепрезентативная выборка: их лента курсорная, не постраничная — page=14/17/20 отдавали один и тот же срез. Для полноценного покрытия используется ScamSniffer, а не эта выборка.",
+  "addresses": {
+    "ethereum": [
+      "0x19dcc4351c4fa3cef39f7986dd9af2647dc4b917",
+      "0x68f72dccd43cfb38d06e37cd85d1a7abdad5c261",
+      "0x4ecc7b4a047b37fddddae5f7c06c425610f4f47f",
+      "0x93900a94ff0db186c4b994911dd6f4c7f05ae49e",
+      "0xcbfa27fa127eaf2ca0c16a49623fa4fa410d1631",
+      "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
+      "0x526a064b76e7e0ab266dd00a3b11530d95e0dc2b",
+      "0x401dacb7697a9c8dfbefc5fcc0102ca29aa007fd",
+      "0xd8f3259ab373e59e144ebd0fe41ae7410547b882",
+      "0x4c3767d894374115bd1ea51c2e7fc30664cd6079",
+      "0xbc8efa5b01db55c57868860f507932093cf693fa"
+    ],
+    "bitcoin": [
+      "bc1qdwpwt2ncmp2w004p4s6un2j3gcz80wvsj9w8g3",
+      "bc1q37cqdezpvlgp8xg0ecvcg00dcuu7v44klrs5ue",
+      "1DFN2R8w1Qos6Cwi4kp68ACZLSHHFeaRFq",
+      "bc1qyhjcusr9pcm4kd580q00x0570lrtw9ttddc2y3"
+    ],
+    "tron": [
+      "TBamsKsTeT4F7WsZ3ZMy5WYFByLC2Hio9R",
+      "TWHc95e9uE5GNpJj69Fe9nido1sPLZtrsX"
+    ]
+  }
+}

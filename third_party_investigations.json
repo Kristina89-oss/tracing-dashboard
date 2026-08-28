@@ -1,0 +1,1723 @@
+{
+  "collected_at": "2026-08-28",
+  "source": "Триаж списка сторонних GitHub-репозиториев. Добавлены только адреса с проверяемой доказательной базой. Также включён массив адресов из публичного Telegram-канала «Investigations by ZachXBT» (t.me/investigations) — самого авторитетного независимого крипто-расследователя; исключены донат-адреса, примеры из UI и явно помеченные адреса жертв.",
+  "cases": [
+    {
+      "name": "\"CyberLeek\" — фейковый токен на утечке GTA VI как приманка для скама",
+      "repo_url": "https://github.com/deepwoodssec/FollowTheLeek",
+      "addresses": {
+        "2hRg6EhT2Z21xKPDnzniENFbQzLazoSjwt6K26bKpump": {
+          "chain": "solana",
+          "role": "scam token mint (CYBERLEEKS)",
+          "note": "Принимал средства жертв"
+        },
+        "HhFaWEVRSktrUo3TnUdVrDmE6LHbkEi5rwNyR85P2GSB": {
+          "chain": "solana",
+          "role": "deployer / on-ramp wallet"
+        },
+        "0xbb22f5c5e6e3086c248d80929b03b157a90381a8": {
+          "chain": "ethereum",
+          "role": "cash-out wallet"
+        },
+        "0x8bee4d7bdaa37fb57aac98ca9b50ff52117123a0": {
+          "chain": "ethereum",
+          "role": "cash-out wallet"
+        }
+      }
+    },
+    {
+      "name": "Get your funds off Magnate Finance on Base.",
+      "repo_url": "https://t.me/investigations/23",
+      "date": "2023-08-25T06:47:01",
+      "addresses": {
+        "0x4bdac0b6eeda6211f43178899cb73670b1952c40": {
+          "chain": "ethereum"
+        },
+        "0x94b43cb81f4656f8e20c0e04371ed088a278092c": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "This top Bitcoin address has been laundering $265M through multiple Bitcoin mixers in recent months after being funded with 10,000 BTC from Binance in May 2018 1EU2pMence1UfifCco2U",
+      "repo_url": "https://t.me/investigations/32",
+      "date": "2023-08-28T16:29:13",
+      "addresses": {
+        "1EU2pMence1UfifCco2UHJCdoqorAtpT7": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "An unknown entity made a $24 million BTC ransomware payment recently which has gone unreported by mainstream media.",
+      "repo_url": "https://t.me/investigations/33",
+      "date": "2023-09-02T05:18:52",
+      "addresses": {
+        "bc1qqldfv7h0ysn0szh9uasa7ldru287yxkljw8he0": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "$147K drained so far Edit: $700K+ drained",
+      "repo_url": "https://t.me/investigations/38",
+      "date": "2023-09-10T02:08:58",
+      "addresses": {
+        "0x4ef6f0d3f94ff609acef88068b1fc66a1184b3f3": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "It appears the hot wallets for CoinEX are currently being drained for $54M+ so far on ETH, TRON, BSC, BTC, XRP, and Polygon.",
+      "repo_url": "https://t.me/investigations/39",
+      "date": "2023-09-12T18:02:57",
+      "addresses": {
+        "0x4515be0067e60d8e49b2425d37e61c791c9b95e9": {
+          "chain": "ethereum"
+        },
+        "0x483d88278cbc0c9105c4807d558e06782aeff584": {
+          "chain": "ethereum"
+        },
+        "0x8bf8cd7f001d0584f98f53a3d82ed0ba498cc3de": {
+          "chain": "ethereum"
+        },
+        "0xcc1ae485b617c59a7c577c02cd07078a2bcce454": {
+          "chain": "ethereum"
+        },
+        "0xc844f7178379782ec19f3ee6e399f2eb7b2b984f": {
+          "chain": "ethereum"
+        },
+        "1BHNb9UJy4cWFB5wywZkTVgoNB4JbFmswH": {
+          "chain": "bitcoin"
+        },
+        "TPFUjxQzG88Vwynrpj2W61ZAkQ9W2QYgAQ": {
+          "chain": "tron"
+        }
+      }
+    },
+    {
+      "name": "The Mixin team just announced they were hacked for $200M worth of ETH, BTC, USDT on September 23 (h/t SlowMist) Theft addresses 0x3B5fb9d",
+      "repo_url": "https://t.me/investigations/41",
+      "date": "2023-09-25T07:30:51",
+      "addresses": {
+        "0x3b5fb9d9da3546e9ce6e5aa3cceca14c8d20041e": {
+          "chain": "ethereum"
+        },
+        "0x52e86988bd07447c596e9b0c7765f8500113104c": {
+          "chain": "ethereum"
+        },
+        "0xb5d631a74ad9c9efcf96d6e9e2fabcb75c67eafa": {
+          "chain": "ethereum"
+        },
+        "bc1qq7uefmz6nng5c4dzs9mwrxxyh9sxg5cjg85hes": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "If you hold HyPC on Ethereum I would dump rn.",
+      "repo_url": "https://t.me/investigations/42",
+      "date": "2023-10-04T21:07:07",
+      "addresses": {
+        "0x43cae3f6bbf42276ea1a976477b17cc72acf74c4": {
+          "chain": "ethereum"
+        },
+        "0xea7b7dc089c9a4a916b5a7a37617f59fd54e37e4": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "It appears burgel.eth was drained for ~$3M across multiple wallet addresses earlier this week likely as the result of a private key compromise.",
+      "repo_url": "https://t.me/investigations/45",
+      "date": "2023-10-06T21:20:59",
+      "addresses": {
+        "0x3a77c47cd683cf0b4e6bbd43683816e106ef3bec": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Careful both Velodrome and Aerodrome frontends are currently compromised.",
+      "repo_url": "https://t.me/investigations/73",
+      "date": "2023-11-29T11:33:33",
+      "addresses": {
+        "0x02ba13f39d7df9c3f7592257b636ed6c7cc4ae78": {
+          "chain": "ethereum"
+        },
+        "0xf64fcedfce714bbe835761e54d7067f2f8231443": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "It seems Thunder Terminal was exploited and the attacker already transferred 86.5 ETH to Railgun.",
+      "repo_url": "https://t.me/investigations/81",
+      "date": "2023-12-27T03:55:52",
+      "addresses": {
+        "0x2a2c200af4e659348c4182dd9806a340851df42e": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "It looks like Coinspaid had another security incident.",
+      "repo_url": "https://t.me/investigations/87",
+      "date": "2024-01-06T14:38:32",
+      "addresses": {
+        "0xe5f07ceb38cd95356c1a2f83f65fa8b59569f9b1": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Be careful CoinTelegraph, WalletConnect, Token Terminal, and De.Fi all appear to be sending out phishing emails to users.",
+      "repo_url": "https://t.me/investigations/89",
+      "date": "2024-01-23T14:17:56",
+      "addresses": {
+        "0xe7d13137923142a0424771e1778865b88752b3c7": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Six hours ago the project Serenity Shield had one of their wallets hacked on BSC for 6.9M SERSH which was sold for ~$586K.",
+      "repo_url": "https://t.me/investigations/95",
+      "date": "2024-02-27T19:09:49",
+      "addresses": {
+        "0x26b30f457f1e97e3da22b9f43fc03f3fa4d3f2ca": {
+          "chain": "ethereum"
+        },
+        "0x29d473678b19edb5a419a13554ca93851604477f": {
+          "chain": "ethereum"
+        },
+        "0x93a8b27c8dc2089bb071c22491a715dcb381f554": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "The same group just hacked another project one hour ago for $278K Theft address 0x017 was fund",
+      "repo_url": "https://t.me/investigations/97",
+      "date": "2024-03-05T19:23:26",
+      "addresses": {
+        "0x01720163e9385e832ffe3387ba7098be4df303e0": {
+          "chain": "ethereum"
+        },
+        "0x0cdb613ec9a07e2afe898f8519a0c0a981032118": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Interestingly the address who just hacked the Netmind AI holder is connected to the Webaverse Nov 2022 compromise.",
+      "repo_url": "https://t.me/investigations/103",
+      "date": "2024-03-15T17:44:47",
+      "addresses": {
+        "0x4484771fa71bf0c1c679e452e57f3a5cd9e60220": {
+          "chain": "ethereum"
+        },
+        "0x965718fd990f8a1cc02cddf850420ecb9b5b3b36": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "The draining service ‘Inferno Drainer’ was exploited for $2.3M according to leaked messages from inside the customer group chat.",
+      "repo_url": "https://t.me/investigations/105",
+      "date": "2024-03-18T23:12:50",
+      "addresses": {
+        "0x61640ff8b9d3c3726f1bf02319671061d9d61e1f": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Someone was drained for $18M (~5800 ETH) from their Coinbase account 9 hours ago.",
+      "repo_url": "https://t.me/investigations/115",
+      "date": "2024-05-03T23:33:15",
+      "addresses": {
+        "0xf2fb2844c46c19a623957ed6dbab148301b18161": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Someone just was phished 10 minutes ago for three bored apes Theft txn 0x13e193fb79352c5aa5f4617c6b5ec9fe61ed2c02f3c1ee532f3629159845e017 Theft address 0x5Fbb6DD8e2F3732d64f4088e8e",
+      "repo_url": "https://t.me/investigations/116",
+      "date": "2024-05-08T20:58:10",
+      "addresses": {
+        "0x5fbb6dd8e2f3732d64f4088e8e0db24479342a87": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "It appears the crypto exchange Rain was likely exploited for $14.8M on April 29, 2024 after their BTC, ETH, SOL, and XRP wallets saw suspicious outflows.",
+      "repo_url": "https://t.me/investigations/122",
+      "date": "2024-05-13T16:47:32",
+      "addresses": {
+        "0x197bc094f990261fd6841342901c451858756c28": {
+          "chain": "ethereum"
+        },
+        "bc1q53aawrkpt5lvk2e30z36unvmhqqdru7q4rprp2": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "Someone was phished 5 minutes ago for $1.25M worth of wstETH Theft txn 0xd7ef4ea3d08fb101544e4a21047c8d05d016211096a6180c9d4f2b055bdeaf68 Theft address 0x58EfE9AeE1b12053f4C58233B7",
+      "repo_url": "https://t.me/investigations/124",
+      "date": "2024-05-16T01:02:58",
+      "addresses": {
+        "0x58efe9aee1b12053f4c58233b75c319412cb0614": {
+          "chain": "ethereum"
+        },
+        "0xfc4eaa4ac84d00f1c5854113581f881b42b4a745": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "A few weeks ago I published research on 25 Lazarus Group hacks which resulted in $3.8M frozen.",
+      "repo_url": "https://t.me/investigations/126",
+      "date": "2024-05-21T01:30:15",
+      "addresses": {
+        "bc1q27vxzyuh4vqwt3u9aqpuk7z5xtgz9y0tqxzesq": {
+          "chain": "bitcoin"
+        },
+        "bc1q62clzxr4vcycjfdqe33ake4dk9fenkpaddkteq": {
+          "chain": "bitcoin"
+        },
+        "bc1q972gcd3ywyc2n2p5lzs5mdwra5q8nymzg0qlx0": {
+          "chain": "bitcoin"
+        },
+        "bc1qfad2yxulctgz6g6tw635n52cw3v7wxydmtmd0f": {
+          "chain": "bitcoin"
+        },
+        "bc1qfenmgt8x2ndhm00xsv09snvandvl9j9w0fhtzw": {
+          "chain": "bitcoin"
+        },
+        "bc1qmd3kzw0ge45eag7qpuhyxa5kdv4hqh3kxp44dg": {
+          "chain": "bitcoin"
+        },
+        "bc1qw88pehjuejym9jyfgn6vn4aaw7q232hlyzzn6f": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "Someone was phished for $6.9M (~1807 Ether.fi-Liquid1) 27 minutes ago Theft txn hash 0xd66e105f29843bf3766d36c910b85c4a194408a7d20f193b39356a39c73d74c8 Theft address 0xE56978D5F7E7",
+      "repo_url": "https://t.me/investigations/127",
+      "date": "2024-05-26T03:41:28",
+      "addresses": {
+        "0xe56978d5f7e728c3ae545b2a0882f8beec50a19d": {
+          "chain": "ethereum"
+        },
+        "0xfc4eaa4ac84d00f1c5854113581f881b42b4a745": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Someone was phished three minutes ago for $2.1M Theft txn 0xa2aecccebe5fef03ca18dbcf890e3d4ea73bd17361b15df77ac9704b2d12f389 Theft address 0x41671a8219fF70b19e0D523C7d0C711c1AfCBB7",
+      "repo_url": "https://t.me/investigations/129",
+      "date": "2024-06-04T20:58:03",
+      "addresses": {
+        "0x41671a8219ff70b19e0d523c7d0c711c1afcbb7e": {
+          "chain": "ethereum"
+        },
+        "0xfc4eaa4ac84d00f1c5854113581f881b42b4a745": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "A TAO holder had $11.2M (28.2K TAO) stolen from them on June 1, 2024.",
+      "repo_url": "https://t.me/investigations/131",
+      "date": "2024-06-05T10:23:30",
+      "addresses": {
+        "0x09f76d4fc3bce5bf28543f45c4cee9999e0a0aaf": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Someone was drained for ~$2M worth of meme coins 16 hours ago Currently the attacker still holds 4.2B ANDY ($1M).",
+      "repo_url": "https://t.me/investigations/132",
+      "date": "2024-06-08T09:31:47",
+      "addresses": {
+        "0x238c20121768919a6a608e7a6b5d080d0040fc7c": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "The crypto exchange Bitforex mysteriously went offline in February 2024 and its crypto assets were transferred out without any communication from the team.",
+      "repo_url": "https://t.me/investigations/133",
+      "date": "2024-06-12T12:14:05",
+      "addresses": {
+        "0x14b0cb518edf83e49e636047db8853a4cac6a1ff": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "AVAX is down 10% over past few hours likely due to this entity that started moving transferring 1.96M AVAX ($54.2M) to Coinbase, Binance, Gate, and bridging via THORChain.",
+      "repo_url": "https://t.me/investigations/134",
+      "date": "2024-06-22T10:19:10",
+      "addresses": {
+        "0x327a81d0d128db8886d265be73c9fdda97194f30": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "I conducted a timing analysis and found highly probably BTC withdrawals made shortly after the AVAX deposits at both Coinbase and Binance 587.75 BTC ($38.1M) was withdrawn from Coi",
+      "repo_url": "https://t.me/investigations/135",
+      "date": "2024-06-22T14:28:58",
+      "addresses": {
+        "bc1q7pkc7h8td55s4em7tmlvd42wahjd4hm8lf035n": {
+          "chain": "bitcoin"
+        },
+        "bc1qezradgkklz3gczk9jjzn922ye7pgj4yd9pnupv": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "Online casino Sportsbet was likely hacked for $3.5M+ by the same threat actor as BTCTurk two hours before as funds from the thefts comingled.",
+      "repo_url": "https://t.me/investigations/136",
+      "date": "2024-06-22T18:27:19",
+      "addresses": {
+        "TDgZKxhyFQWCsNK1p7d1tVifeuW2DJTUEo": {
+          "chain": "tron"
+        },
+        "TJZ8NNxJETGDzGaWwSHwjGrzzz2Zhvexo2": {
+          "chain": "tron"
+        },
+        "TQWSmSqns2BLczLEMpy96tNq3MagM66H4b": {
+          "chain": "tron"
+        }
+      }
+    },
+    {
+      "name": "US government just transferred 3940 BTC ($243M) of funds from the Silk Road hack to Coinbase Prime Transaction hash 0f3f9a7c01d85c5747a3ae6cc9621cc30360390c4b681c1f95573e6bbcffed4f",
+      "repo_url": "https://t.me/investigations/137",
+      "date": "2024-06-26T20:13:30",
+      "addresses": {
+        "3FGcXf5HiPkitjQp4xjGu7Gte6aK7w43su": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "Someone was just drained an hour ago for 6 X Bored Apes and 40 x Beanz NFTs Theft address Victim address 0xd7b2879c8922cd704e41e8cc1f18f6",
+      "repo_url": "https://t.me/investigations/139",
+      "date": "2024-07-03T04:51:10",
+      "addresses": {
+        "0x0cda1f8f94fa4301c6fd0740268cb41e1654d28c": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Sharing the $25M ransom payment made by CDK on June 21, 2024 to BlackSuit.",
+      "repo_url": "https://t.me/investigations/141",
+      "date": "2024-07-14T11:15:53",
+      "addresses": {
+        "bc1q0c03s0c80uuxjq4jcyfhs4k8w5wu6ca9xhxsw9": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "Looks like the Indian crypto exchange WazirX was potentially hacked for $230M+ Primary theft address Attacker still has $100M+ worth of S",
+      "repo_url": "https://t.me/investigations/143",
+      "date": "2024-07-18T10:25:08",
+      "addresses": {
+        "0x04b21735e93fa3f8df70e2da89e6922616891a88": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Nexera (NXRA) was exploited for ~$1.5M a few hours ago.",
+      "repo_url": "https://t.me/investigations/148",
+      "date": "2024-08-07T11:41:29",
+      "addresses": {
+        "0x6bd33c8256f7a37336b2b8fe967321e25540337b": {
+          "chain": "ethereum"
+        },
+        "0xe697949817a45446776376db203c04d31b580a10": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "A few hours ago a victim was drained for 55.4M DAI Transaction hash 0xf70042bf3ae7c22f0680f8afa078c38989ed475dfbe5c8d8f30a50d4d2f45dc4 Theft address 0x5D4b2A02c59197eB2cAe95A6Df9fE",
+      "repo_url": "https://t.me/investigations/150",
+      "date": "2024-08-21T05:50:12",
+      "addresses": {
+        "0x5d4b2a02c59197eb2cae95a6df9fe27af60459d4": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "The project Truflation was hacked a few hours ago for $5M+ on multiple chains from the treasury multisig and personal wallets EVM theft address 0x53d2094b31429a13e739358b16354d8e08",
+      "repo_url": "https://t.me/investigations/159",
+      "date": "2024-09-25T23:52:08",
+      "addresses": {
+        "0x2122a76213b23daf633b850cb659750db0cac801": {
+          "chain": "ethereum"
+        },
+        "0x3f8e5cc8abd032dd6ad652423e951ab06f833126": {
+          "chain": "ethereum"
+        },
+        "0x4ec10144f1a96eed9b04d324d0997b5325c56472": {
+          "chain": "ethereum"
+        },
+        "0x53d2094b31429a13e739358b16354d8e0826b25a": {
+          "chain": "ethereum"
+        },
+        "0x7ea07c76328fc789435fc77a2a4d527c5bbc333e": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "In the past hour a victim was drained for 12K spWETH ($32.4M) Theft txn hash 0xf7c00f18175cdea49f8fdad6a1d45edeb318f18f3009f51ab9f4675171c1d8fb Theft address 0x471c725Bd1F29850CBb8",
+      "repo_url": "https://t.me/investigations/162",
+      "date": "2024-09-28T10:11:46",
+      "addresses": {
+        "0x471c725bd1f29850cbb8eea4cdf6c9ce3cac5607": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Sharing 13 high confidence wallets with $27.75M tied to MustStopMurad so people can track them.",
+      "repo_url": "https://t.me/investigations/165",
+      "date": "2024-10-09T12:16:24",
+      "addresses": {
+        "0x13fc38ec99a8217a06d1dc6db8c0bf0ee97ebf7f": {
+          "chain": "ethereum"
+        },
+        "0x30b46a659761b576a00028b44d1e37fdc64b034d": {
+          "chain": "ethereum"
+        },
+        "0x464e0a666734ba93e231d929ace538eaf05ff424": {
+          "chain": "ethereum"
+        },
+        "0x52ba2171d6d0aaf6e817769b9d54576e79a98d1a": {
+          "chain": "ethereum"
+        },
+        "0x5b1569db234a0f2884814a3f7184f01cf641b0c6": {
+          "chain": "ethereum"
+        },
+        "0x6b411100c72ba2445e50ffd20839c28b3546de7c": {
+          "chain": "ethereum"
+        },
+        "0x71b4fd11eef705ba60176e7c034cd1a4f97ae02d": {
+          "chain": "ethereum"
+        },
+        "0xcbd0dee0c3eed152c3398b062361becc4a15522b": {
+          "chain": "ethereum"
+        },
+        "0xdb47714727cba70f0408ba30dc4ea0b5ac436055": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Tapioca DAO hack is likely the result of a team member downloading malware as the theft is tied on-chain to other recent hacks such as Nexera, Concentric, Masa, SpaceCatch, Reach,",
+      "repo_url": "https://t.me/investigations/167",
+      "date": "2024-10-18T15:08:45",
+      "addresses": {
+        "0x69d91e56ca80f2a4d7b808b59053ea5c5505ffe2": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "It also looks like Masa never disclosed their hack to the community for six figures on September 20, 2024.",
+      "repo_url": "https://t.me/investigations/168",
+      "date": "2024-10-18T15:44:13",
+      "addresses": {
+        "0x4c16506f257a3782dee8d245f9504439c21314f8": {
+          "chain": "ethereum"
+        },
+        "0x6483c58f4fd3c07ddad4c9b9b2756dc963d5dc0b": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Looks like $20M of seized funds tied to the US Government was likely stolen in the past hour.",
+      "repo_url": "https://t.me/investigations/172",
+      "date": "2024-10-24T22:31:17",
+      "addresses": {
+        "0x15d0a31ed5050ed8decd3c101aaee0b2ad2e6441": {
+          "chain": "ethereum"
+        },
+        "0x3486ee700ccaf3e2f9c5ec9730a2e916a4740a9f": {
+          "chain": "ethereum"
+        },
+        "0xbf6f7c503e858aded4e18ce2bcf93846fd726c15": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "The crypto exchange M2 was hacked for ~$13M from hot wallets on multiple chains yesterday.",
+      "repo_url": "https://t.me/investigations/174",
+      "date": "2024-11-01T13:34:43",
+      "addresses": {
+        "0x968b6984cba14444f23ee51be90652408155e142": {
+          "chain": "ethereum"
+        },
+        "bc1qu4kh7wa38xpkrp8frgxl4sak88wx0jug8n3vfj": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "I did some initial tracing for the Andy Ayrey (Truth Terminal creator) hack this week which lead to $1.5M+ stolen from deploying multiple bundled meme coins and found one of the pe",
+      "repo_url": "https://t.me/investigations/175",
+      "date": "2024-11-01T14:44:47",
+      "addresses": {
+        "0xcd27994d2a460e3f7bdee75974188040d7fe723e": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Multisig exploiter just transferred 9980 ETH ($31.4M) to the crypto exchange eXch, swapping from Ethereum to Bitcoin in 7 orders.",
+      "repo_url": "https://t.me/investigations/183",
+      "date": "2024-11-16T14:52:16",
+      "addresses": {
+        "0x2d146aa23645950fdefbb23f636a5d1674fe1047": {
+          "chain": "ethereum"
+        },
+        "bc1q4cwvw5x89pjaquq5e25ghjgffevmz6rtz043tx": {
+          "chain": "bitcoin"
+        },
+        "bc1qe6yk9rnae0l96775gu99zvjdy496j3rrfc5sm0": {
+          "chain": "bitcoin"
+        },
+        "bc1qffvx38hplm6ym5el5yakxmntezv7tg6yurghnq": {
+          "chain": "bitcoin"
+        },
+        "bc1qpj24paw8hunju2z6fharwej82rfjywexsz629a": {
+          "chain": "bitcoin"
+        },
+        "bc1qrzzdx82jv4t4tlkfc0gsqjpjp2r9r6ptq7rtuf": {
+          "chain": "bitcoin"
+        },
+        "bc1qut035lpe0k6yklcrkaquhvg4x65lkg5n3uvnel": {
+          "chain": "bitcoin"
+        },
+        "bc1qyht95cksxh2un0elgdaq0up874s99kj80ev97d": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "A few hours ago wallets tied to crypto influencer JRNY saw ~$4M worth of crypto assets suspiciously transferred out and sold indicating a potential private key compromise.",
+      "repo_url": "https://t.me/investigations/184",
+      "date": "2024-11-22T19:46:04",
+      "addresses": {
+        "0x6fd6c8fd64c7efdb8eec902161d3bbc035430456": {
+          "chain": "ethereum"
+        },
+        "0xa2dd5e2ab84240cbecc7beaca9946afef97ae74a": {
+          "chain": "ethereum"
+        },
+        "0xc467150582cfc8eec4132a483c76101d3636f598": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "The Blockchain Bandit attacker woke up after being dormant for multiple years and consolidated 51,000 ETH ($172.2M) to a single multisig.",
+      "repo_url": "https://t.me/investigations/194",
+      "date": "2024-12-31T00:34:21",
+      "addresses": {
+        "0xc45c36017b0b7708f493534ca4f0930964c1d542": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "The P2P marketplace Noones was likely exploited for ~$7.9M on Ethereum, Tron, Solana, & BSC on January 1-2, 2025 as its hot wallets saw hundreds of suspicous outflows for <$7K per",
+      "repo_url": "https://t.me/investigations/202",
+      "date": "2025-01-24T11:24:40",
+      "addresses": {
+        "0x4b0edd27196063476d91b634333be289beca9202": {
+          "chain": "ethereum"
+        },
+        "0x6c9b55b50e6a42fd7a14b49ba7747096090b0465": {
+          "chain": "ethereum"
+        },
+        "0x72c1eabafc42a2ac6d0447b02c657b96f07402e6": {
+          "chain": "ethereum"
+        },
+        "TLRzLWbrCPVjXEcTDHv4Lavm6CxonUgJST": {
+          "chain": "tron"
+        },
+        "TSnsmxEPy7rqk9XRsCiYEk5ntchweGFq2A": {
+          "chain": "tron"
+        }
+      }
+    },
+    {
+      "name": "Currently monitoring suspicious outflows from Bybit of $1.46B+ will update as information becomes available",
+      "repo_url": "https://t.me/investigations/211",
+      "date": "2025-02-21T18:20:30",
+      "addresses": {
+        "0x47666fab8bd0ac7003bce3f5c3585383f09486e2": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "If you are an exchange or service who follows my channel blacklist these addresses on all EVM chains: 0xa4b2fd68593b6f34e51cb9edb66e71c1b",
+      "repo_url": "https://t.me/investigations/214",
+      "date": "2025-02-21T18:34:25",
+      "addresses": {
+        "0x1542368a03ad1f03d96d51b414f4738961cf4443": {
+          "chain": "ethereum"
+        },
+        "0x36ed3c0213565530c35115d93a80f9c04d94e4cb": {
+          "chain": "ethereum"
+        },
+        "0x47666fab8bd0ac7003bce3f5c3585383f09486e2": {
+          "chain": "ethereum"
+        },
+        "0xa4b2fd68593b6f34e51cb9edb66e71c1b4ab449e": {
+          "chain": "ethereum"
+        },
+        "0xdd90071d52f20e85c89802e5dc1ec0a7b6475f92": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "The attacker just split 10K ETH to 39 addresses.",
+      "repo_url": "https://t.me/investigations/217",
+      "date": "2025-02-21T19:00:47",
+      "addresses": {
+        "0x09278b36863be4ccd3d0c22d643e8062d7a11377": {
+          "chain": "ethereum"
+        },
+        "0x0e8c1e2881f35ef20343264862a242fb749d6b35": {
+          "chain": "ethereum"
+        },
+        "0x140c9ab92347734641b1a7c124ffdee58c20c3e3": {
+          "chain": "ethereum"
+        },
+        "0x1512fcb09463a61862b73ec09b9b354af1790268": {
+          "chain": "ethereum"
+        },
+        "0x1bb0970508316dc735329752a4581e0a4babc6b4": {
+          "chain": "ethereum"
+        },
+        "0x1eb27f136bfe7947f80d6cee3cf0bfdf92b45e57": {
+          "chain": "ethereum"
+        },
+        "0x21032176b43d9f7e9410fb37290a78f4fed6044c": {
+          "chain": "ethereum"
+        },
+        "0x2290937a4498c96effb87b8371a33d108f8d433f": {
+          "chain": "ethereum"
+        },
+        "0x23db729908137cb60852f2936d2b5c6de0e1c887": {
+          "chain": "ethereum"
+        },
+        "0x30a822cdd2782d2b2a12a08526452e885978fa1d": {
+          "chain": "ethereum"
+        },
+        "0x3a21f4e6bbe527d347ca7c157f4233c935779847": {
+          "chain": "ethereum"
+        },
+        "0x40e98feeebad7ddb0f0534ccaa617427ea10187e": {
+          "chain": "ethereum"
+        },
+        "0x4c198b3b5f3a4b1aa706dac73d826c2b795ccd67": {
+          "chain": "ethereum"
+        },
+        "0x51e9d833ecae4e8d9d8be17300aee6d3398c135d": {
+          "chain": "ethereum"
+        },
+        "0x52207ec7b1b43aa5db116931a904371ae2c1619e": {
+          "chain": "ethereum"
+        },
+        "0x55cca2f5eb07907696afe4b9db5102bce5feb734": {
+          "chain": "ethereum"
+        },
+        "0x5af75eab6bec227657fa3e749a8bfd55f02e4b1d": {
+          "chain": "ethereum"
+        },
+        "0x660bfcea3a5faf823e8f8bf57dd558db034dea1d": {
+          "chain": "ethereum"
+        },
+        "0x684d4b58dc32af786bf6d572a792ff7a883428b9": {
+          "chain": "ethereum"
+        },
+        "0x6d46bd3aff100f23c194e5312f93507978a6dc91": {
+          "chain": "ethereum"
+        },
+        "0x723a7084028421994d4a7829108d63ab44658315": {
+          "chain": "ethereum"
+        },
+        "0x83c7678492d623fb98834f0fbcb2e7b7f5af8950": {
+          "chain": "ethereum"
+        },
+        "0x83ef5e80fad88288f770152875ab0bb16641a09e": {
+          "chain": "ethereum"
+        },
+        "0x8c7235e1a6eef91b980d0fca083347fbb7ee1806": {
+          "chain": "ethereum"
+        },
+        "0x9271eddda0f0f2bb7b1a0c712bdf8dbd0a38d1ab": {
+          "chain": "ethereum"
+        },
+        "0x959c4ca19c4532c97a657d82d97accbab70e6fb4": {
+          "chain": "ethereum"
+        },
+        "0x96244d83dc15d36847c35209bbdc5bdde9bec3d8": {
+          "chain": "ethereum"
+        },
+        "0x9ef42873ae015aa3da0c4354aef94a18d2b3407b": {
+          "chain": "ethereum"
+        },
+        "0xa5a023e052243b7cce34cbd4ba20180e8dea6ad6": {
+          "chain": "ethereum"
+        },
+        "0xd5b58cf7813c1edc412367b97876bd400ea5c489": {
+          "chain": "ethereum"
+        },
+        "0xeb0baa3a556586192590cad296b1e48df62a8549": {
+          "chain": "ethereum"
+        },
+        "0xf302572594a68aa8f951fae64ed3ae7da41c72be": {
+          "chain": "ethereum"
+        },
+        "0xaf620e6d32b1c67f3396ef5d2f7d7642dc2e6ce9": {
+          "chain": "ethereum"
+        },
+        "0xb172f7e99452446f18ff49a71bfeecf0873003b4": {
+          "chain": "ethereum"
+        },
+        "0xb4a862a81abb2f952fca4c6f5510962e18c7f1a2": {
+          "chain": "ethereum"
+        },
+        "0xb72334cb9d0b614d30c4c60e2bd12ff5ed03c305": {
+          "chain": "ethereum"
+        },
+        "0xbc3e5e8c10897a81b63933348f53f2e052f89a7e": {
+          "chain": "ethereum"
+        },
+        "0xbca02b395747d62626a65016f2e64a20bd254a39": {
+          "chain": "ethereum"
+        },
+        "0xbde2cc5375fa9e0383309a2ca31213f2d6cabcbd": {
+          "chain": "ethereum"
+        },
+        "0xcd1a4a457ca8b0931c3bf81df3cfa227adbdb6e9": {
+          "chain": "ethereum"
+        },
+        "0xcd7ec020121ead6f99855cbb972df502db5bc63a": {
+          "chain": "ethereum"
+        },
+        "0xd3c611aed139107dec2294032da3913bc26507fb": {
+          "chain": "ethereum"
+        },
+        "0xe69753ddfbedbd249e703eb374452e78dae1ae49": {
+          "chain": "ethereum"
+        },
+        "0xe9bc552fdfa54b30296d95f147e3e0280ff7f7e6": {
+          "chain": "ethereum"
+        },
+        "0xf03afb1c6a11a7e370920ad42e6ee735dbedf0b1": {
+          "chain": "ethereum"
+        },
+        "0xf0a16603289eaf35f64077ba3681af41194a1c09": {
+          "chain": "ethereum"
+        },
+        "0xfa3fcccb897079fd83bfba690e7d47eb402d6c49": {
+          "chain": "ethereum"
+        },
+        "0xfc926659dd8808f6e3e0a8d61b20b871f3fa6465": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Lazarus Group transferred 5K ETH from the Bybit Hack to a new address and began laundering funds via eXch (a centralized mixer) and bridging funds to Bitcoin via Chainflip.",
+      "repo_url": "https://t.me/investigations/219",
+      "date": "2025-02-22T10:36:38",
+      "addresses": {
+        "bc1qlu4a33zjspefa3tnq566xszcr0fvwz05ewhqfq": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "As if this year could not get any more strange we have an entity laundering for the Bybit hack who launched / traded Pump Fun meme coins.",
+      "repo_url": "https://t.me/investigations/222",
+      "date": "2025-02-23T16:05:36",
+      "addresses": {
+        "0x0be9ab85f399a15ed5e8cbe5859f7a882c7b55a3": {
+          "chain": "ethereum"
+        },
+        "0x363908df2b0890e7e5c1e403935133094287d7d1": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "An unknown victim is suspected of being hacked by Lazarus Group on Tron for ~$3.1M on Feb 28, 2025.",
+      "repo_url": "https://t.me/investigations/230",
+      "date": "2025-03-01T14:54:35",
+      "addresses": {
+        "0xcced1276382f4dd0a6d0e73b07f43294733981ae": {
+          "chain": "ethereum"
+        },
+        "TYQ3455gFNeqyw3sqdcWuiARq4UTMqk4D4": {
+          "chain": "tron"
+        }
+      }
+    },
+    {
+      "name": "A high confidence Tornado Cash demix for the theft reveals funds from the DPRK hack purchased 437.6B PEPE ($3.1M) on March 11, 2025 after ETH was withdrawn from Tornado Cash 0x7A7D",
+      "repo_url": "https://t.me/investigations/233",
+      "date": "2025-03-14T19:37:33",
+      "addresses": {
+        "0x5d3a17a828aeb89729299ba5dd72200295b00df0": {
+          "chain": "ethereum"
+        },
+        "0x77793f723a5538972a566d701cc7fbd32770cc96": {
+          "chain": "ethereum"
+        },
+        "0x7a7dda0ebff13eb014f763d05e7784b36418022f": {
+          "chain": "ethereum"
+        },
+        "0x921213ab8cb18e0487b41dfff18e39836fd19f04": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "It is suspected a Coinbase user was scammed yesterday for $34.9M (400.099 BTC).",
+      "repo_url": "https://t.me/investigations/242",
+      "date": "2025-03-28T15:58:09",
+      "addresses": {
+        "bc1qd59e296yyr8x4gyr53xt4yjmmgukwemetalcuf": {
+          "chain": "bitcoin"
+        },
+        "bc1qd6v3220v49j0xgmycksze59z90gru46dlxg8ff": {
+          "chain": "bitcoin"
+        },
+        "bc1qhc72zfqwqh3e6lns5ay084k29tmqlgw75jsxec": {
+          "chain": "bitcoin"
+        },
+        "bc1qvlustvxhqzee9tgqers4tfungrg6c0fs4u76jf": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "Another $45M+ was stolen from Coinbase users via social engineering scams in just the last week.",
+      "repo_url": "https://t.me/investigations/247",
+      "date": "2025-05-07T18:47:10",
+      "addresses": {
+        "0x75b09e181a8bcfc4e05db22b673d92bc55fee150": {
+          "chain": "ethereum"
+        },
+        "0xadefbb6082f98be8f0f7f0323af19ecd216f13b9": {
+          "chain": "ethereum"
+        },
+        "bc1q7x2fexw0fcufym04ug7kdk2r6pzfeg00g6xfjk": {
+          "chain": "bitcoin"
+        },
+        "bc1qel8as46edjk4h750kem4z280l09294ewj458qk": {
+          "chain": "bitcoin"
+        },
+        "bc1qfmc6pkq3u63dzt6w28yxd28fhluqdzcyjfngy2": {
+          "chain": "bitcoin"
+        },
+        "bc1qjpepgf7nfkm3mlumdru8lgjmsca8cc982f08xd": {
+          "chain": "bitcoin"
+        },
+        "bc1qksulmw0scf9en4w22hzh3hvarnrfflyh52mydz": {
+          "chain": "bitcoin"
+        },
+        "bc1qm6u4d4a0d6dnlwr22ywwlgzayvtgx6h45v4dln": {
+          "chain": "bitcoin"
+        },
+        "bc1qv9p9gcng7u9k8qxcqee5fhxnm8y6zwd4lal3lv": {
+          "chain": "bitcoin"
+        },
+        "bc1qw3ggh8vdjtry04w790pz2w0synz3ewtpfc9rdj": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "A victim is suspected of being hacked by DPRK due to malware for $5.2M+ on May 24th after the victim's wallets saw outflows from various multisig, EOAs, and exchange accounts where",
+      "repo_url": "https://t.me/investigations/253",
+      "date": "2025-05-27T13:48:07",
+      "addresses": {
+        "0x31088345396d0cf00a81a3e3b8e8c5bb8ec768a3": {
+          "chain": "ethereum"
+        },
+        "0x4be5023ad49573a544a9a4109e4f1880a32fe5c3": {
+          "chain": "ethereum"
+        },
+        "0x9d42a049f88f1db4b304441081aff7c40d857bea": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "The Taiwanese crypto exchange 'BitoPro' was likely exploited for ~$11.5M on May 8, 2025.",
+      "repo_url": "https://t.me/investigations/254",
+      "date": "2025-06-02T08:48:00",
+      "addresses": {
+        "0x2453933c98b6e55397103f7c1081626e0a02d2c9": {
+          "chain": "ethereum"
+        },
+        "0x454cf3892a949c94569ab2663090ecdca811a6f0": {
+          "chain": "ethereum"
+        },
+        "bc1qcwzxklr3tr7zjhvql7pqtg57rkvm55vcz8ydul": {
+          "chain": "bitcoin"
+        },
+        "TRoLEoNiiod5m8TSdmSR4iW17yQCfc2YJV": {
+          "chain": "tron"
+        }
+      }
+    },
+    {
+      "name": "The Iranian crypto exchange ‘Nobitex’ appears to have been exploited for $81.7M on Tron, Bitcoin, Doge, and EVM chains after suspicious outflows were observed from many wallets lin",
+      "repo_url": "https://t.me/investigations/258",
+      "date": "2025-06-18T09:54:22",
+      "addresses": {
+        "0xffffffffffffffffffffffffffffffffffffdead": {
+          "chain": "ethereum"
+        },
+        "1FuckiRGCTerroristsNoBiTEXXXaAovLX": {
+          "chain": "bitcoin"
+        },
+        "TKFuckiRGCTerroristsNoBiTEXy2r7mNX": {
+          "chain": "tron"
+        }
+      }
+    },
+    {
+      "name": "A suspicious address received 193 small withdrawals in a 1.5 hour period from Coinbase for 1.67M USDC total on June 23, 2025 and swapped all funds for ETH and deposited it to Torna",
+      "repo_url": "https://t.me/investigations/260",
+      "date": "2025-06-28T17:13:28",
+      "addresses": {
+        "0xf43622c9b9cdbb515eced56ac6a5ad60eaa6be6f": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "A victim had multiple addresses drained on Solana for $3.2M on May 16, 2025 in a suspected Lazarus Group attack.",
+      "repo_url": "https://t.me/investigations/261",
+      "date": "2025-06-29T08:26:40",
+      "addresses": {
+        "0xa5f7499804f941335ab72f232cf15c59aaa3d528": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Looks like the India centralized exchange 'CoinDCX' was likely drained for ~$44.2M almost 17 hours ago and has yet to disclose the incident to the community.",
+      "repo_url": "https://t.me/investigations/264",
+      "date": "2025-07-19T18:41:20",
+      "addresses": {
+        "0xef0c5b9e0e9643937d75c229648158584a8cd8d2": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "On August 19, 2025 a victim fell for a social engineering scam and lost 783 BTC ($91.4M) after exchange and hardware wallet customer support were impersonated.",
+      "repo_url": "https://t.me/investigations/270",
+      "date": "2025-08-21T20:33:17",
+      "addresses": {
+        "bc1qyxyk4qgyrkx4rjwsuevug04wahdk6uf95mqlej": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "Yesterday an unknown victim was exploited for ~3.047M USDC on Ethereum.",
+      "repo_url": "https://t.me/investigations/273",
+      "date": "2025-09-11T18:03:14",
+      "addresses": {
+        "0xf0a6c5b65a81f0e8ddb2d14e2edcf7d10c928020": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "JP (THORChain co-founder & Vultisig co-founder) had a personal wallet drained for $1.35M by DPRK on September 9, 2025 after a meeting call scam on Telegram.",
+      "repo_url": "https://t.me/investigations/274",
+      "date": "2025-09-12T11:27:22",
+      "addresses": {
+        "0x37cdb6b40861f350e23aa5733e75755fcbed739f": {
+          "chain": "ethereum"
+        },
+        "0x7abc09ab94d6015053f8f41b01614bb6d1cc7647": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "A threat actor drained 8 X Hypurr NFTs airdropped to compromised wallets on HyperEVM in the past hour profiting ~$400K",
+      "repo_url": "https://t.me/investigations/277",
+      "date": "2025-09-28T20:49:06",
+      "addresses": {
+        "0x72785d42874e965086829ea789a703fe1a5238df": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "On September 24, 2025 addresses linked to SBI Crypto saw ~$21M in suspicious outflows on Bitcoin, Ethereum, Litecoin, Doge, & Bitcoin Cash.",
+      "repo_url": "https://t.me/investigations/278",
+      "date": "2025-10-01T17:16:43",
+      "addresses": {
+        "0x40d76a78ddba2ea81fb0f9fba147a08bcfc2b866": {
+          "chain": "ethereum"
+        },
+        "bc1qx0a2kfjd7eweczv8xqjm6rggm40v0nkhfss78l": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "Threat actor from the Coinbase breach swapped ~5M DAI for ~5M USDC that was sitting as USDC for 35 minutes.",
+      "repo_url": "https://t.me/investigations/279",
+      "date": "2025-10-02T13:10:47",
+      "addresses": {
+        "0x8da006d5afec4a3a2ab7cdb6e1d2fc7c5032ea30": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Garden Finance was likely exploited for $10.8M+ on multiple chains.",
+      "repo_url": "https://t.me/investigations/282",
+      "date": "2025-10-30T16:33:08",
+      "addresses": {
+        "0x98bcc6c34a489cefdd9dfa8d792cfefb02ea2d12": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Community Alert: Be careful of a fake Hyperliquid app on the Google Play Store.",
+      "repo_url": "https://t.me/investigations/287",
+      "date": "2025-11-07T16:48:07",
+      "addresses": {
+        "0x8c12c21c394d9174c3b1a086a97d2c5523abb8f5": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "The project 'GANA Payment' was exploited a few hours ago for ~$3.1M+ on BSC Theft consolidation The attacker deposited 1140 BNB ($1.04M)",
+      "repo_url": "https://t.me/investigations/289",
+      "date": "2025-11-20T10:11:07",
+      "addresses": {
+        "0x2e8a8670b734e260cedbc6d5a05532264aae5c38": {
+          "chain": "ethereum"
+        },
+        "0x7a503e3ab9433ebf13afb4f7f1793c25733b3cca": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "The British threat actor Danny / Meech aka Danish Zulfiqar (Khan) appears to have likely been arrested by law enforcement and had crypto assets seized.",
+      "repo_url": "https://t.me/investigations/290",
+      "date": "2025-12-05T08:53:32",
+      "addresses": {
+        "0xb37d617716e46511e56fe07b885fbdd70119f768": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "A victim had suspicious outflows of ~$1.1M from five wallets on EVM chains 23 hours ago in a private key compromise.",
+      "repo_url": "https://t.me/investigations/295",
+      "date": "2025-12-11T16:01:10",
+      "addresses": {
+        "0x4f8affe6cd269d1f8352d0542432de6975c3912d": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Community alert: A number of Trust Wallet users have reported that funds were drained from wallet addresses within the past couple of hours.",
+      "repo_url": "https://t.me/investigations/296",
+      "date": "2025-12-25T23:02:34",
+      "addresses": {
+        "0x109252d00b2fa8c79a74caa96d9194eef6c99581": {
+          "chain": "ethereum"
+        },
+        "0x30cfa51ffb82727515708ce7dd8c69d121648445": {
+          "chain": "ethereum"
+        },
+        "0x3b09a3c9add7d0262e6e9724d7e823cd767a0c74": {
+          "chain": "ethereum"
+        },
+        "0x463452c356322d463b84891ebda33daed274cb40": {
+          "chain": "ethereum"
+        },
+        "0x4735fbecf1db342282ad5baef585ee301b1bce25": {
+          "chain": "ethereum"
+        },
+        "0xa42297ff42a3b65091967945131cd1db962afae4": {
+          "chain": "ethereum"
+        },
+        "0xc22b8126ca21616424a22bf012fd1b7cf48f02b1": {
+          "chain": "ethereum"
+        },
+        "0xe072358070506a4dda5521b19260011a490a5aaa": {
+          "chain": "ethereum"
+        },
+        "0xf2dd8eb79625109e2dd87c4243708e1485a85655": {
+          "chain": "ethereum"
+        },
+        "bc1q3ykewj0xu0wrwxd2dy4g47yp75gxxm565kaw6m": {
+          "chain": "bitcoin"
+        },
+        "bc1q4g8u7kctk6f2x3f6nh43x76qm4fd0xyv3jugdy": {
+          "chain": "bitcoin"
+        },
+        "bc1qgccgl9d0wzxxnvklj4j55wqeqczgkn6qfcgjdg": {
+          "chain": "bitcoin"
+        },
+        "bc1qjj7mj50s2e38m4nn7pt2j0ffddxmuxh2g8tyd8": {
+          "chain": "bitcoin"
+        },
+        "bc1ql9r9a4uxmsdwkenjwx7t5clslsf62gxt8ru7e8": {
+          "chain": "bitcoin"
+        },
+        "bc1qw7s35umfzgcc7nmjdj9wsyuy9z3g6kqjr0vc7w": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "It appears hundreds of wallets are currently being drained on various EVM chains for small amounts (<$2k total per victim) with a root cause not yet unidentified.",
+      "repo_url": "https://t.me/investigations/298",
+      "date": "2026-01-02T02:11:43",
+      "addresses": {
+        "0xac2e5153170278e24667a580baea056ad8bf9bfb": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "On January 10, 2026 at around 11 pm UTC a victim lost $282M+ worth of LTC & BTC due to a hardware wallet social engineering scam.",
+      "repo_url": "https://t.me/investigations/302",
+      "date": "2026-01-16T20:21:05",
+      "addresses": {
+        "bc1qluxw46r55wf3dnk9c652vrt4duadm3hpuktf86": {
+          "chain": "bitcoin"
+        },
+        "bc1qpsmh26ja0fzzf286zulmt9eywujc2pggj40wzm": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "An unknown Kraken user lost $18.2M due to a suspected social engineering scam.",
+      "repo_url": "https://t.me/investigations/308",
+      "date": "2026-03-31T14:25:58",
+      "addresses": {
+        "0xc55149bbd560435a9fbeabfdcf9711cf928aca21": {
+          "chain": "ethereum"
+        },
+        "1D8f8956EEFLXN28AHfioEx4ywVbxCz8KN": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "On April 6, 2026 BitcoinDepot (BTM) disclosed in an SEC 8K filing it uncovered an incident on March 23, 2026 which resulted in 50.9 BTC ($3.6M) stolen.",
+      "repo_url": "https://t.me/investigations/311",
+      "date": "2026-04-09T09:52:31",
+      "addresses": {
+        "bc1q4ut9geva75wyeh78vx7tm4lehlkl77z6w5vksp": {
+          "chain": "bitcoin"
+        },
+        "bc1q4vjezx6rf9xkpcassmmlpd3678593q5lk3lg7p": {
+          "chain": "bitcoin"
+        },
+        "bc1q5aes997chagmc6h8z4nlq0nk2waj8ff370hnlu": {
+          "chain": "bitcoin"
+        },
+        "bc1q9mppvhrrmdw9d05tvtvacgk87muvwstpxt59ce": {
+          "chain": "bitcoin"
+        },
+        "bc1qaqkk0sdp7mmjpr5ax7dphuxt7wv8qtkgu6pevd": {
+          "chain": "bitcoin"
+        },
+        "bc1qc3py8la4y4864wkvjpjwvq6690u7uxse0lgrzs": {
+          "chain": "bitcoin"
+        },
+        "bc1qegrffryc6s80u7jcehyqzw2c30rzwhweq8x33k": {
+          "chain": "bitcoin"
+        },
+        "bc1qfhafkxq388k3adlvn8qaqf7y486u3rauaqg75y": {
+          "chain": "bitcoin"
+        },
+        "bc1qg4evf89vlnd5escw5lf3pksftljkj8hczwed3k": {
+          "chain": "bitcoin"
+        },
+        "bc1qmx2sunxc76kdpsdhtnt7gdwcdhz6zptypy60tj": {
+          "chain": "bitcoin"
+        },
+        "bc1qp989gkepg255ngkntd4sppnzzg6fcx997tjz79": {
+          "chain": "bitcoin"
+        },
+        "bc1qq6cy97pyhmnw52p6906uupyca02uq563ndy9r6": {
+          "chain": "bitcoin"
+        },
+        "bc1qqnnh38wu4clderxu6x8fanqtekjehhvd9n0m4d": {
+          "chain": "bitcoin"
+        },
+        "bc1qqt65qe94rm5kh7srhpp2u5cd5gtcc3peyesfmz": {
+          "chain": "bitcoin"
+        },
+        "bc1qsrxf2cmmausfdkyq34mcluluvmlr0e5s7c8n7s": {
+          "chain": "bitcoin"
+        },
+        "bc1qt6cc729nz2pu5mjlmj36ajxn9put8372s3dshk": {
+          "chain": "bitcoin"
+        },
+        "bc1qyym7sqe95h4003c6fk0p8r2q4vdzm2hx64hazz": {
+          "chain": "bitcoin"
+        },
+        "bc1qyzqsnn4msw4a2ar0397da7xe4f2r8wt4fn2l9c": {
+          "chain": "bitcoin"
+        },
+        "bc1qzjt0l0tutwrqgq7ftv9l405qqu5gvsh0j8en0z": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "Community alert: A fake Ledger Live app on the Apple App Store is tied to $9.5M stolen from 50+ suspected victims between April 7–13 across Bitcoin, EVM, Tron, Solana, & Ripple.",
+      "repo_url": "https://t.me/investigations/313",
+      "date": "2026-04-14T13:16:42",
+      "addresses": {
+        "0x2cddfc496c9ba7765955773f4dcc5920cc147d72": {
+          "chain": "ethereum"
+        },
+        "0x6876e75730125618d09df064091a1094275bda39": {
+          "chain": "ethereum"
+        },
+        "0x98bc748eb4451417f7259190675ea565dbd5ed85": {
+          "chain": "ethereum"
+        },
+        "bc1q34u3g5r0m00a9dk6trhj6e69vgzvdaw8xnt6dl": {
+          "chain": "bitcoin"
+        },
+        "bc1qf7wdsx03xdwkqxznjzfhz2q98law46yyje5rvy": {
+          "chain": "bitcoin"
+        },
+        "TFsLWCYxj4aVUdjKg6Vnz5RtDe1AFWzmYK": {
+          "chain": "tron"
+        },
+        "TLPgiPEniadnUNKMApu4oGZynwzvUbUUTs": {
+          "chain": "tron"
+        }
+      }
+    },
+    {
+      "name": "KelpDAO appears to have had $280M+ stolen one hour ago on Ethereum and Arbitrum.",
+      "repo_url": "https://t.me/investigations/314",
+      "date": "2026-04-18T21:52:59",
+      "addresses": {
+        "0x1f4c1c2e610f089d6914c4448e6f21cb0db3adef": {
+          "chain": "ethereum"
+        },
+        "0x5d3919f12bcc35c26eee5f8226a9bee90c257ccc": {
+          "chain": "ethereum"
+        },
+        "0x8d11aeac74267dd5c56d371bf4ae1afa174c2d49": {
+          "chain": "ethereum"
+        },
+        "0xbb6a6006eb71205e977eceb19fcad1c8d631c787": {
+          "chain": "ethereum"
+        },
+        "0xcbb24a6b4dafaaa1a759a2f413ea0eb6ae1455cc": {
+          "chain": "ethereum"
+        },
+        "0xeba786c9517a4823a5cfd9c72e4e80bf8168129b": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Community alert: It appears Thorchain was likely exploited on Bitcoin, Ethereum, BSC, Base for $10.7M+ The protocol paused trading as a result.",
+      "repo_url": "https://t.me/investigations/319",
+      "date": "2026-05-15T12:36:37",
+      "addresses": {
+        "0x82fc0d5150f3548027e971ec04c065f3c93154eb": {
+          "chain": "ethereum"
+        },
+        "0xd477b69551f49c0519f9b18c55030676138890bd": {
+          "chain": "ethereum"
+        },
+        "bc1ql4u94klk265lnfur2ujk9p6uh52f2a8jhf6f37": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "Earlier today the threat actor 'Dritan Kapllani Jr' transferred $2.59M (1.99M DAI, 259 ETH) three hops from: to: 0x67ec1d405e53ed13a19eb7",
+      "repo_url": "https://t.me/investigations/321",
+      "date": "2026-05-15T15:12:45",
+      "addresses": {
+        "0x4487db847db2fc99372a985743a26f46e0b2bba6": {
+          "chain": "ethereum"
+        },
+        "0x67ec1d405e53ed13a19eb77a9db19186723d125d": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Update: Following up on my earlier warnings about Gurhan Kiziloz, I completed onchain tracing which demonstrates commingling of at least $25M of presale funds between two investmen",
+      "repo_url": "https://t.me/investigations/323",
+      "date": "2026-05-20T15:20:09",
+      "addresses": {
+        "0x3b224a7a5a7ee682a2597eaf2b1f61d153424f4b": {
+          "chain": "ethereum"
+        },
+        "0x4c39ed0438d5e8913acf423db6d56cce78b2d367": {
+          "chain": "ethereum"
+        },
+        "0xb8e55a329536f3e981c63567b7b1156533d1855a": {
+          "chain": "ethereum"
+        },
+        "TRa9KjECpmmBBr1GKTwEWmskdiEKyLnf3C": {
+          "chain": "tron"
+        },
+        "TZENvWXqdkqQYT2om6yLC731Cphu57yKkY": {
+          "chain": "tron"
+        }
+      }
+    },
+    {
+      "name": "An unknown victim lost ~231 BTC ($18.8M) on May 14, 2026 due to private key compromise.",
+      "repo_url": "https://t.me/investigations/326",
+      "date": "2026-05-21T10:15:19",
+      "addresses": {
+        "bc1qmmfyekpkkuxryezpup7nw2x9qvr5avlfj3vvpc": {
+          "chain": "bitcoin"
+        },
+        "bc1qrf02hgf9e3lypt8wm025g4waee47wjwz2at9az": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "Community alert: A Polymarket admin address appears to have been compromised on Polygon >$520K drained thus far Attacker address: Related",
+      "repo_url": "https://t.me/investigations/327",
+      "date": "2026-05-22T11:22:30",
+      "addresses": {
+        "0x871d7c0f9e19001fc01e04e6cdfa7fa20f929082": {
+          "chain": "ethereum"
+        },
+        "0x8f98075db5d6c620e8d420a8c516e2f2059d9b91": {
+          "chain": "ethereum"
+        },
+        "0x91430cad2d3975766499717fa0d66a78d814e5c5": {
+          "chain": "ethereum"
+        },
+        "0xf61e39c7eb1e2ff5af3a24bca88d40fd11594805": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Two contracts related to European stablecoin issuer StablR appears to have been potentially exploited for ~$10M (EURR & USDR) The attacker address was funded via CCTP on Noble Atta",
+      "repo_url": "https://t.me/investigations/329",
+      "date": "2026-05-24T04:46:03",
+      "addresses": {
+        "0x09be1a36c2d7f9909eb3d6f9184c6e46a12b0aca": {
+          "chain": "ethereum"
+        },
+        "0x5d2184d84b82b67c1818bbec8ce81e7df14f6bab": {
+          "chain": "ethereum"
+        },
+        "0x6283558eb6948ca50a2be942d98a41ca4d1def40": {
+          "chain": "ethereum"
+        },
+        "0x74b4621b82eb31c5fd9fbad5729bef1813e26dcf": {
+          "chain": "ethereum"
+        },
+        "0x8aaa93d06bf8de94c282f66a16effe6d9d94d038": {
+          "chain": "ethereum"
+        },
+        "0xd4677b5a8b1b97ea213fdb876b0fcbab3f9f6cd1": {
+          "chain": "ethereum"
+        },
+        "0xea480c23d7b29a515856aafe0dc86f7519965a04": {
+          "chain": "ethereum"
+        },
+        "0xf1f70d7461356f32b97ddc2cd54a490d4363340e": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "An entity previously received ESPORTS, RIVER, & LIGHT tokens via Sablier vesting contract and is also directly tied to a signer on three LAB multisigs.",
+      "repo_url": "https://t.me/investigations/331",
+      "date": "2026-05-26T08:50:32",
+      "addresses": {
+        "0x5f04a53bff7ae409140f35cf1804892aac295be5": {
+          "chain": "ethereum"
+        },
+        "0xba898b422932783c7a3cb57b641922b84daa24f2": {
+          "chain": "ethereum"
+        },
+        "0xcea722a1a812ebdfa5bbd8130531cf1d1956ebc9": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Community alert: I suggest avoiding Rain Protocol ($8.8B mkt cap; top 15) at all costs.",
+      "repo_url": "https://t.me/investigations/335",
+      "date": "2026-06-05T07:39:36",
+      "addresses": {
+        "0x2db0e5d3678ace8db1c400844b2ed9a0af331a66": {
+          "chain": "ethereum"
+        },
+        "0x7706342d38d3fd957c7061ac87a98f21f1cb53aa": {
+          "chain": "ethereum"
+        },
+        "0x7c10f934c84a0aefaffd3334463c245a311cc967": {
+          "chain": "ethereum"
+        },
+        "0xa35e61cb836ae15f2d7d400efb49bda7222b98bc": {
+          "chain": "ethereum"
+        },
+        "0xa810e14e2ee46e1e25e56bcf280208b78242d5d1": {
+          "chain": "ethereum"
+        },
+        "0xbac19cb634c34baf7670263ccc74806a2d004fb0": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Three hours ago 10.6K ETH ($18.5M) moved from an address linked to the $575M Hashflare investment fraud after sitting dormant onchain for 3.5 yrs.",
+      "repo_url": "https://t.me/investigations/342",
+      "date": "2026-06-22T13:51:35",
+      "addresses": {
+        "0x3297a41f528345c3b97af8c6ffe1401cc07b2527": {
+          "chain": "ethereum"
+        },
+        "0xc82f007bb4096a47d14ed0d46ee8143d37539d04": {
+          "chain": "ethereum"
+        },
+        "0xff575a22975cc413771825eb84c163189a4d5d22": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Community alert: KuCoin has sent legal threats to a victim whose stolen funds were laundered via KuCoin accounts with purchased mule KYC.",
+      "repo_url": "https://t.me/investigations/348",
+      "date": "2026-06-30T07:59:22",
+      "addresses": {
+        "0x35d65ec360347f7dc41a929cc7ce9f2485a4f833": {
+          "chain": "ethereum"
+        },
+        "0x4a4b5c7db9aa8355a5e5abbfc1926cd6b2d9f610": {
+          "chain": "ethereum"
+        },
+        "0x6043b2d79670a417fc523213155812846e893dc7": {
+          "chain": "ethereum"
+        },
+        "0x6368d06895b7becdcac0806f438efa653fe0a68d": {
+          "chain": "ethereum"
+        },
+        "0xa0fdb49aa589538d5622b92e9122727873558a13": {
+          "chain": "ethereum"
+        },
+        "0xe7bb69f6c0ae0c1418bd86ec9697af9914d6875e": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "From July 2-3, 2026 a threat actor withdrew 3200 ETH from Tornado in relation to two large private key compromise thefts.",
+      "repo_url": "https://t.me/investigations/350",
+      "date": "2026-07-05T11:57:40",
+      "addresses": {
+        "0x295fdf140e7c706be5b9daffc68d97a224394cfe": {
+          "chain": "ethereum"
+        },
+        "0x4e6a42fa57392673580e15e35850324557f51467": {
+          "chain": "ethereum"
+        },
+        "0x5dc523deceb53ff5e89e0f6683af77f274f51f56": {
+          "chain": "ethereum"
+        },
+        "0x764c80a719fdf932d4a5944e9e382f71958bffa3": {
+          "chain": "ethereum"
+        },
+        "0x83396ae682c821d56b0c51da86b536af0a4b9894": {
+          "chain": "ethereum"
+        },
+        "0x85d7124a659fb0aeb7ccd283f3e24bc2364e7c55": {
+          "chain": "ethereum"
+        },
+        "0xe007625bf20387ed3c250e1dcf3d94d133480634": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "An early Solana whale tied to the initial Genesis block distribution appears to have likely had 180.9K SOL ($14.2M) stolen a few hours ago.",
+      "repo_url": "https://t.me/investigations/353",
+      "date": "2026-07-10T16:13:04",
+      "addresses": {
+        "0x536b4ee7507c41143e1b0bd1bf3f2b84be404836": {
+          "chain": "ethereum"
+        },
+        "0xaa5cfa4e96dda0f9aa30f4dc948b542a9b5817c6": {
+          "chain": "ethereum"
+        },
+        "0xbf11bdfbeb9ed137c352c81e45d191cacae6b0cf": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "Community alert: Over the past 48 hour an entity initially funded by the LAB team deposited 18.4M LAB ($18.3M) to Aster and began selling LAB spot on the DEX which has caused the L",
+      "repo_url": "https://t.me/investigations/354",
+      "date": "2026-07-12T08:09:42",
+      "addresses": {
+        "0x628dd74f428a81cd34ece11331a7f1593f76047a": {
+          "chain": "ethereum"
+        },
+        "0x6593aa6c31c88397c37f71259625ec92fe4ee0bf": {
+          "chain": "ethereum"
+        },
+        "0x76ccfde9819500204985580d235dd8326fa0b241": {
+          "chain": "ethereum"
+        },
+        "0x77156a0a621d2ac7a075c0ac3172707c2e4aa191": {
+          "chain": "ethereum"
+        },
+        "0xaad30cab22f772c1658b7845b5837d35bf3a467a": {
+          "chain": "ethereum"
+        },
+        "0xdd77bfbdc11cd37fd255ae35a4ac39df1f9d570a": {
+          "chain": "ethereum"
+        },
+        "0xe39f91a0daffc5547ada79a09be30b8556f7dfba": {
+          "chain": "ethereum"
+        }
+      }
+    },
+    {
+      "name": "It appears the bridge TeleSwap had a $735K+ exploit on July 15, 2026 and still has not disclosed the incident publicly after five days.",
+      "repo_url": "https://t.me/investigations/356",
+      "date": "2026-07-20T17:35:55",
+      "addresses": {
+        "0x2448cbaee50a67030692b7519a954e5550dc2718": {
+          "chain": "ethereum"
+        },
+        "0xf8706a51f8df01a71f408e50c901dd14916a12c7": {
+          "chain": "ethereum"
+        },
+        "0xfc5048fbba2f74ed482ffcd7663601f818c5bb47": {
+          "chain": "ethereum"
+        },
+        "bc1pz95zv3qhpmt52yezs84a5zrddrk5jsxm8a60rln5kzlk06e87a3q8pf79l": {
+          "chain": "bitcoin"
+        },
+        "bc1q5wnpn4k99wc587maaaa6eqnx27g4r6mduxg2s5": {
+          "chain": "bitcoin"
+        }
+      }
+    },
+    {
+      "name": "Address-poisoning scammer partially returned $34.7M of the $68M WBTC theft after being contacted",
+      "repo_url": "https://t.me/investigations/118",
+      "addresses": {
+        "0x20cbf5c444d4f07f4cb5c37585e59f4ac1b472f1": {
+          "chain": "ethereum",
+          "role": "address-poisoning scammer"
+        }
+      }
+    },
+    {
+      "name": "Pancake Bunny exploiter accidentally transferred $3.6M to the DAI contract address",
+      "repo_url": "https://t.me/investigations/147",
+      "addresses": {
+        "0x820c79d0b0c90400cdd24d8916f5bd4d6fba4cc3": {
+          "chain": "ethereum",
+          "role": "Pancake Bunny exploiter"
+        }
+      }
+    },
+    {
+      "name": "The eXch team accidentally sent 34 ETH to the hot wallet of another exchange after laundering $35M+ for Lazarus Group from the Bybit hack",
+      "repo_url": "https://t.me/investigations/220",
+      "addresses": {
+        "0xc93ed1bde1b998b387ba0b179423473dd9a24381": {
+          "chain": "ethereum",
+          "role": "eXch team wallet (laundering Bybit/Lazarus funds)"
+        }
+      }
+    },
+    {
+      "name": "Threat actor who stole $300M+ from Coinbase users via customer-support social engineering trolled ZachXBT onchain after swapping $42.5M+ BTC->ETH via Thorchain",
+      "repo_url": "https://t.me/investigations/252",
+      "addresses": {
+        "0xc84c35f57caeeb5da8e31d1144c293ae5851ab84": {
+          "chain": "ethereum",
+          "role": "Coinbase social-engineering threat actor"
+        }
+      }
+    },
+    {
+      "name": "DPRK laundered $1.5M from the $290M KelpDAO/LayerZero exploit from Ethereum to Bitcoin via Thorchain",
+      "repo_url": "https://t.me/investigations/316",
+      "addresses": {
+        "0x6cd95e71c0e5fad6506b7c588a5af0251aee1e3a": {
+          "chain": "ethereum",
+          "role": "DPRK laundering wallet (Thorchain)"
+        },
+        "0xc91f8d6200fc427d5993f58b428882ffad8fa7d9": {
+          "chain": "ethereum",
+          "role": "DPRK laundering wallet (Thorchain)"
+        },
+        "0x1c1a82627da9a8a09c8df8078b2a57008be19097": {
+          "chain": "ethereum",
+          "role": "DPRK laundering wallet (Thorchain)"
+        }
+      }
+    }
+  ]
+}

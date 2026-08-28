@@ -1,0 +1,5006 @@
+{
+  "collected_at": "2026-08-28",
+  "source": "ваши собственные репозитории на github.com/Kristina89-oss",
+  "case_sensitivity_note": "TRON/Solana адреса хранятся в оригинальном регистре (base58 чувствителен к регистру); ETH-адреса нижним регистром.",
+  "cases": [
+    {
+      "name": "TRON laundering investigation ($1.56B, CoQ / EJon-HBK network, June 2026 Tether freeze)",
+      "repo_url": "https://github.com/Kristina89-oss/tron-laundering-investigation",
+      "addresses": {
+        "TBzrPEsStbZAUx2SBhD4oHz8UW3FX9Ak9W": {
+          "risk": "High*",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F4"
+          ]
+        },
+        "TK9ew7o1ARyGzFjAXbfL21QuLmgQzp4Vda": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TBzUw6xuHWWbspjxspZdSDT5ki3f6Sqacj": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TSF3BXrZtAVQgYDQbBpEoeoaSY6a6xbXor": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TNHb973iCyimMDhLBXKEbJu2tyxvk7Kw25": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TJ3YMAmV7ex79BGwM25QcqCaKZW7rdiYqF": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TFec9HsPDkLwLm2N5fjMKAJZeDiAHjq9b9": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4"
+          ]
+        },
+        "TTw46z5JLwThRkukbjU2TzhYk7cHGmB4ti": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4"
+          ]
+        },
+        "TA6YHqB2xh5HhfmC7WoLQaWmqq7Vv4zCoQ": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "THe6PUNYum4CjCAW7BHe2sqhoi7EvEMe73": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4"
+          ]
+        },
+        "TRuHu46Z3SvWEjnbegayZqXJqvbbcERZgs": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F3",
+            "F4"
+          ]
+        },
+        "TVLmWT74M8hGFmo7kRrHGH44Ro61HcxTTT": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F5"
+          ]
+        },
+        "TAoJdeGRNUK62qK1boGyTNCuXkUfJaiwKX": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TBiTLVn4RwybTVuy9KgUUu2s9uWcYK7uhp": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "THPYzDXTurrum6pJmBLm9Ab9sL5rKNvART": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4"
+          ]
+        },
+        "TEEh5uyy133Yw43Lo5jDVAfXpEX9KqMb5X": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TAonwuuKSvNgZ5x2ifmDwPN7YQYy3NM4u3": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TYiUza4FahVVBfx2m4Lzp59ZXTsNWoNv3y": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TNFpo7EQ8Mgrq4FyQTqsKEKMQHnGweScRe": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4"
+          ]
+        },
+        "TFM2VSQW2JmgETSGWdTfbp2yUXDST1jcxz": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TJsDfzPCZkDNjkTTDQ9LPAiGf1jnuT7w5K": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "T9zLBXHAu1wdhpDXWQh7NGms2iPBnr75Ko": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4"
+          ]
+        },
+        "TG56ZdZbzqN6w35wKdDzt3AwBiUo1RXz4w": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TGs841dgSCQuMsDk4LMCDiYV7WvXTSteUu": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F4",
+            "F5"
+          ]
+        },
+        "THnK9QocskTMW8WBn68bL9AT6hR7gvLBvX": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4"
+          ]
+        },
+        "TKLMCvmqopkNjERDre9gVyEnycesBdSCQS": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TLRrGf45VSXErKePUGZeNmnXJN5bGMtdCA": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F4",
+            "F5"
+          ]
+        },
+        "TN3PNzcJPxDucscmSk1pHtaZkXUrL3PeB5": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4"
+          ]
+        },
+        "TRUSXZTFA6cf8ef8UJyqoFk84qfTNEJrqt": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TQsFZ2Edo3eXBuAYgj6XzgMKymoSZAHPSL": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F4",
+            "F5"
+          ]
+        },
+        "TWfaXtYf1HQ7uvQGAB1uD1g2LoDVb7X8xn": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F4",
+            "F5"
+          ]
+        },
+        "TYuPudXPo9hxVn2snScde65eWYeZkXuj4R": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F4",
+            "F5"
+          ]
+        },
+        "TDDv2bEA7axJFyy7vuKdLsp9D7NstaUYTt": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TNDPF3y5MxfKnN8vqtPk5i3CvsyEwUumTn": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TSr6G2SqPcDNLHZ2WU5N7tAKfEHNnVKUf7": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F3",
+            "F4"
+          ]
+        },
+        "TGKZwkeyNQ9JXCXz96MdraFXMMcirWPwHM": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TNJXGPCfYhfupGbvzX7rKe2kMuobZxP4r5": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TAr3K2Kie2UAJ6GeRRToX2AkxPEWdZysjy": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F3",
+            "F4"
+          ]
+        },
+        "TA5ENDKZrWdH51soEGjpYKh6bshcct1Tfs": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TC3pdXscoB2RtpSXmkHCZR5DGK6Xi76j5A": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TCgLYejMxwQvUvSP537oSfiAhDop47kRqM": {
+          "risk": "High",
+          "cluster": "EJon",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F5"
+          ]
+        },
+        "TNKsRavH7nViieNwcc45aw9t9MNBAXcxFH": {
+          "risk": "High",
+          "cluster": "EJon",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4"
+          ]
+        },
+        "TE5XmXb2hvRSAQ26yyx8TYxxFwo9eRJ1w6": {
+          "risk": "High",
+          "cluster": "HBK",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4"
+          ]
+        },
+        "TFzkvmaZN3gsu4WLBLKrGbyxdYeoevfGs4": {
+          "risk": "High",
+          "cluster": "HBK",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4"
+          ]
+        },
+        "TQp4Pnta4fi3uaEK5kmMJBTYJCHadTvPM4": {
+          "risk": "High",
+          "cluster": "HBK",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4"
+          ]
+        },
+        "THE7N9sPRaFd3MrWgfBqQn529e2VQaUnPt": {
+          "risk": "High",
+          "cluster": "HBK",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F3",
+            "F4"
+          ]
+        },
+        "TXzbetD8VTVVEWAbLKs6tDqNezNv6aUojk": {
+          "risk": "High",
+          "cluster": "HBK",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4"
+          ]
+        },
+        "TFWoWinqsk9mGwWe7sDgny5uuG2tnPSZqH": {
+          "risk": "High",
+          "cluster": "HBK",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4"
+          ]
+        },
+        "TD1KSKgazE1cPouCcDgEjy7ssfac1MGwhr": {
+          "risk": "High",
+          "cluster": "HBK",
+          "fatf_flags": [
+            "F1",
+            "F2",
+            "F4"
+          ]
+        },
+        "TPC3DJggmCcduM39fze4tmfQZRfkqr6Fyq": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F4"
+          ]
+        },
+        "TT73nTNJJxkBDDtoWiRuSxK8MxaD1L73vJ": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F4"
+          ]
+        },
+        "TJq8ByepQ59PJ2P9DDpfcQp74HwWxYRP3r": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F5"
+          ]
+        },
+        "TQmkSe3NieCLMjAHCtoNvxXjewpSfXDyCq": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F3",
+            "F4"
+          ]
+        },
+        "TAF47UW92QhSqhjnAEye29iGNJSw68qPN6": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TAMBS1p63SXXBTbsDa8eKgMLymLDLPSAsw": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TAMThpKvGLSr93zsdUrnUWW7pMvRmSoG9F": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TAWTABaat2YyQbgXBRvLN9xPFHkKUFN8y4": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TAbqrMk3cbaRjduQn3r1gMWUxBjMCMWoRJ": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TAmPxjK456rgEkymnnw9bmymSTqRMr8xut": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TAmZH83Rqq68qAQooZ1c3cnKWZhZRX7yjZ": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TAmhanpfSuz9a1Qrn1fbkk4zCQeRqKhnKK": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TAnrpmCXTCWW8U1uF2kL8Y87zoi7R5npic": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TB1aqjzS9PDm68sTDff7pPCXpoLwcJuuPn": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TB2jvJYQd3yP8ZpLKTNYRRiBzt2GAPEvhb": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TBPUe5xBjNGyfTjuzbUoEKe7DecHtKVPwH": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TBRiNKkeTG1HrHH79b9yDksniTimDhok9t": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TBXXcGZSnbo8RjQGHt361KustENyBG1hZD": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TBaSFBgKH5ZieYuQMptCRWtEWKtDRdoYkr": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TBro51fS9YG4fuGSPbvhsrhijGKDjyZ1Y4": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TC1Nbne6QqRYK9tdeLusWvRQS56yxtdags": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TCLYoxTf31rQX676Ab2SL4mhd6gF7Rd3Sy": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TCLavAY8VcKjKKHSt4oKTpsprFtiab2Pso": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TCeR2FR58t6fGEsn1PFuBMhgVVw2wtVE36": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TCwTqVwHkg6rCg69yjwwMEFfnLoyJK2S7e": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TDCXLmtg9mVuCmb1xkBewKrXUvh2J5UbDf": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4",
+            "F5"
+          ]
+        },
+        "TDKCFqdyhSS8u6zJFHGF61EQjJ4oN2ZP5H": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F4"
+          ]
+        },
+        "TDWr5xMVpws72NT5wbf75YJtSi86feLFgk": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TDgQHRi2wB4MVyMRSeuLg3xPrUNv4cfWGC": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TE4VAgixXTqUCibT8bAr2ogiQmbRHut54t": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TEPTpRPgoLBo5vF2jThGRKnLDqcUUnc4xw": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TEbm3AM4rRBUjwDoKiVyFgmPPyY81KXDkr": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TErL36PkR3nb7EEVNdG55rjDNEAcahNZNS": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TEw7VZa7V3HKUm1zZkEvPYN3D5VjXy8C8y": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TFPwrcpmnyn4qrUDhQVJxo9qxgjZdzA79q": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TFQwvJavz4na6sYxcFuJDAAHecyfHPCpC4": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TFT7boc5y7MXfzye6QkJP2rpnivFFLcPVu": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TFYQs6VGoYK1kfoymk7JkwFyEy84vL2M8b": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TG4XFeGRWwX3Y2q539xZoPyhjNhkj5fVxm": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TGJ1cFVzeri8Ni31SwgaZqiVpjdgxSUFom": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TGZbwijqYJa3tF75rKLkw1o7GjiMDnNuCc": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TGeDgg3uFhQgJ66nbNcjH4vdtFj2pJPvha": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TGno18ayNHJ3TngEtMusfFaLtkJEQdUnbF": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "THDGgq5CJLwF9SE6G8YNAmVqH2NDVZynh3": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4",
+            "F5"
+          ]
+        },
+        "THK4D5ABESEh3cgHeEKrmd7TjTVDhTjtTj": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "THNWe5QRmDfJmiY1ThLoYYv7SSZQgKJTXQ": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "THkSW85sZ79tecDCGSJLCcnJ72iWNgTvep": {
+          "risk": "High",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F4",
+            "F5"
+          ]
+        },
+        "THqjWhiWEk1nMUGgN14eGh5Reyfgu1gWLd": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "THsta6HbdpNXn3qwG6PFAn85g4V9Mmi5KV": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TJKyhMxRiDY8NrDE5yxfb6p1NAe2SsNRea": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TJNctZ8okZrG2p7bNAxyiJbABDchAgLFHq": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TJVEkGvbeWeRAk8A8qoR6Locqg1Y95TdLn": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TJXfqzyjGw6v5je6xfQBqPE9CDTQmMiEVA": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TJmX6aKwL34zh9VMmYMuJSaoDhw1eCVGzC": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TJxPESw1sgmBD8iJCtLdcymMeEykTQpfGE": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TK5JbZ73Km4d6uAnAiRnAfqToPBBBhGEyt": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TKUQ3EFiZuHtV3awEDxvi624uuoZsbZejr": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TL13LTzHaDowwcvcpeQBxqPHH8zT4w2kbs": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TL6ja1GwTzJAuS5DmpEhQJ25aACHUckcRS": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TLTHqNi9uPb1ZmFfsja49UsBQse72JMUgE": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TLh8o7VstUzxbUmxoPuz85ybh7tsqT6N8J": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TLmMLwCPBx2mCXjZyYaAKFPGmEdfA9JzF8": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TLpeJudCaXxrr5QiXYU4UnEhNDmRczeUb7": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TM1mqcLYs76VCUAjjBBySgKXTpaEQAhT7o": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TMAtKKDsq4BzUWWdmWVtCtAAoiVEQv9iLi": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TMJ1bxfeDYpJKoGz3erU2ngjqkpSRnb1TJ": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TMLRj9otCKpTz66mtC2v3DNnUSeHZ8seeK": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TMW5Qs6837dV3zzwTgyDdrWax9Q4Uv1ENo": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TMcmUnTvNpezeEpW6x1dcKWVTyUmseJHgr": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TMpHmtbovGf2TL5avXayQuSZrMRE61rABa": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TMyTusVpdLqu71RiWTqCwziJqvEuJrZovf": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TNBo4DZcJdsodApYnthTkYwgE77Ba2BZ8R": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TNGSk5Z966KG8SMyrFjGPsubXDtsavRicQ": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TNZCLF2vNKf8VRdorjjJRjbHvG9rB7RCpd": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TNst5rC8RYZ8ytWAeuKwBX4ZqENrJpL19S": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TNy7WFn7XZXPWN9daThHYHAjPFRdLxwUGy": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TNyprw4RtwvZyBmnHdewU8xGzWfRW19Hz2": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TPEAf6vHXPxtgHraKbjRtMP9weNpDispVd": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TPP2yRAXNEcjMGL1VAxyHjxoGgLMGbXHyi": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TPh9CdfBsxqbHy5kUW5enkB2ed6PrCb6aJ": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TPomx2d4VQ86GeS7VmEp7vq3fUChuknX4F": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TPqVNvSA99Er9KBkvFqaYFDdZGYxdfmF1M": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F4"
+          ]
+        },
+        "TPqaj3Z867CKQgGy7JV3jezAGLecG2x6dn": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TPxFDayK4MTPNj43AAk28gy2QEGHS3ifXB": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TPzyajyaRrEaWGqaW761vPj13j7FouVDwQ": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TQ9FdC29srEfDo71jJmHVDyTXmLGnRBvuz": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TQ9nuKnqHJ37yScNdfSd3U8z1D4d9LWcrJ": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TQHY9ioRgEHvZ7LpXo3zn65pZAweHMXTic": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TQHfHXK4DzkeiEYgsAosjYUjgQzERP8oJb": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TQMN7yywdro7jJGu5zqGLdFyrsVLQENHG5": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TQY7GGmEmSWVK1D4C1YKBCu43UqRMP2dLC": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TQsvowsgjowKdBj7AJuujcdMsioy4F4Ffv": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TQvkSzwhhtDNz3GvtAViRfvhj15w61KNsG": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TQxkmist3QRXw3USkUV9huewwM4sVHbWuC": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TR8iDAUmubQb2Sco5Yu5asHKwbw8cMeQdH": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TRPUgbZndeJtzXUjAx1prGggutyrzQ8Bjg": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TRbkQLcmZdJY9pp9BcrLXTcLuNDPR9pAkT": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TRkdz7JrUZMotiJAxXUhwHB49cPhW484eW": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TRkeqRz3NBK6HeuVsL8gk1nhJSzE8UkUdb": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TRvxEsAhmEqMcTCFyQMbMBybGHNtPWC2Su": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TRympoU8qaCSXV4QDMC3dfRELZUJdhL41U": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TS1WSp2ZAseuZgBpqifqqHU6oewr5Nhszq": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TS3gQPJdAfwtjYXcf8d14qM9Wx7hcfHonq": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TS835eTDfEeH79zawp3PJCToVvchMHnrGe": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TSG7DVFzCjeYF47McZV2GRKP3d6CXk634X": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TSPyoahMr2kVvhMmGcgroX4H7Q9mzvzu5v": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TSbSKGhpKPxnjPc7hMWWBiqY3738jkCQen": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TSe7Mbm83txmePJ8JoPa3fizA8kvF7M7yD": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TSgvMxUYGuiMqTztu3sEVBhqv88KpbNRei": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TSjQTMCBUzum6nuicrYZYQwTANJcnWaqqE": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TT7M9hK9EGsGuUfTGXWC7WUAEQy8CWMZmZ": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TTXVuT5o2j3ykHds7uNWtea5FtwVPqgwhT": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TTZGF7jPcL2tnxFZX4Jw7QiZKjJ2gYm5WU": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TTcgnLBWxp5DDm4mDWqUeRS2xsm2pWnbpv": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TTpVCJCcak488vwieACMc7gKdcwiZDAHM4": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TTsSobPj2fF55PbMu6PEoFY9ULGMoqMwTF": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TTxmaVFSCgQyVRo1ViuYUVFXCHh4cxVs5J": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TTxt9k7zFBetxnYUMcqCuZBL7qS7s2jcWA": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TU1953koZbuX296XCMCsGNjxZcoqvcoLTN": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TU1T2zcRpYjHDby2PrQD9YaJrdRbfbQZ7b": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TU6qzx3CCgRfxQmXJvbPtiNyizhqWzCSzU": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TULnxePjSCawE7q4QBygFP2YsDk9fvFJKY": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TUVJuErkdAvxHB3ZxD6b8wfUYUzQtfPdPW": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TUi3ZhjAyrUsckdLeJdj1qwzJN4nfBo1G6": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TUvXZ49ZZpiyeeGprzEYcG4NxpBj5Lhafr": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TUweJ3bw34jj16vJ7jVy5FBd95cLdLFGyS": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TVAQxDSkCvXXzmmjDVcMLViyB124TUA7Nm": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TVC5bD3H813CstdpceBuNL72JoEma9GBfR": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TVE59auUtPrg4c1nFaiYi7ysJwJ5vy2X6y": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TVHUXJSLuBePrmdqGNFD5Xp3PV6rkF9reV": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TVUAC7bEgoDu7oNZ6sVRV5UDm7fRjzQYMU": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TVVxobUKNaxXztmzppEwTTYp5YQXuRiaFb": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TVe6r5SBdJMTKgDRyk1yvWh9wx7NpMHApv": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TW9bExFNBVtyTsLUjdksYib13i75msjujt": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TWS3McaQcVP1Pd6nvhcPu4EzAKkQZ8LdHY": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TWU63q4sKEdm2z7g8xts74knu1cZ1AhAA1": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TWaS7XGzy32bp1t8vSiYBWuaVZ7Yyt2GKJ": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TWoreziy7t2SjFttKa5Yzptt6pCSZEQ8Jb": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TWpkNxT2sgnvuCkB1rY6UbGbWHo16MMaM3": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TXSE4xJSYuW2573HzZJtZkzeD3Qj489pUK": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TXhkyaRLCAJzEZwpg42tvVRCkUuaefNjgz": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TY7VH8GEqJ33izX8x8AoTsBBnS8vsoNihe": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TYY8BACv5eHG9NJ9WUL8qHwPq2aEx2aGrZ": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TYdgj27b9V8Qa4y1B5yQbQBkzUvnY75mCp": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TYeu8ub9X6UDgfhNqfWMpE9bH5qJTqwSww": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TYiqoRTyu4cHJa3iQnndeQn95Z7WhJRFGi": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TYpgGbMGbpNc8WBWdDi4YoYQK1f5n4JXg5": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TYyzJze7Ujo9jiRSG74ncmGmoypbxsS3yv": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TZFcqaYwEHH8Lg2fKtHE6LiQieGxGWknTr": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TZGQJyBUFepZZ6N8fBqcT9fmS2hYqrc8PK": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F2",
+            "F4"
+          ]
+        },
+        "TEv5V9GztVzsj64AMPtYoFgLSyB3jUo1qx": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2"
+          ]
+        },
+        "TL71QAuzMec8qGFs9b5fRydyrsroPrVa25": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F2"
+          ]
+        },
+        "TTbXgTs5sw4St9g8C8FoGHto3xAGUAaYpz": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F3",
+            "F4"
+          ]
+        },
+        "TRzbRJ7dmF1kQqrX9yiX2VcvRwv63PhKsV": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F4"
+          ]
+        },
+        "TV4qmfU1d8ESpUsBnJkAhooTPS348iS5hT": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F5"
+          ]
+        },
+        "TDWEVtUQratBN5FZkt3gu2xBmSw548qEYr": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F4"
+          ]
+        },
+        "TRjbpWLZ55Z57DHtWhJs45BTNBJvHRykCw": {
+          "risk": "Medium",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1",
+            "F4"
+          ]
+        },
+        "TScMFDASoiTTqK8ztRzgH2vvcWxByV2CQx": {
+          "risk": "Medium",
+          "cluster": "EJon",
+          "fatf_flags": [
+            "F1",
+            "F5"
+          ]
+        },
+        "TNsMc9RD1fGX4FTVM9wLtQGdVie3yqEJon": {
+          "risk": "Medium",
+          "cluster": "EJon",
+          "fatf_flags": [
+            "F1",
+            "F5"
+          ]
+        },
+        "TBR7B5NE9rZchZBCgLaTovi9GQr9XFFFyo": {
+          "risk": "Medium",
+          "cluster": "EJon",
+          "fatf_flags": [
+            "F1",
+            "F2"
+          ]
+        },
+        "TJk93DPYAHdC3MpMxVwVRY6Hc4dZBBaYNH": {
+          "risk": "Medium",
+          "cluster": "EJon",
+          "fatf_flags": [
+            "F4",
+            "F5"
+          ]
+        },
+        "TVP6JAmFFEyHVsX6CEvhs2RZHdsgZcuPqt": {
+          "risk": "Medium",
+          "cluster": "EJon",
+          "fatf_flags": [
+            "F1",
+            "F4"
+          ]
+        },
+        "TJK69Sk6CnrszzDh16fCCPUjqLT78jhZDu": {
+          "risk": "Medium",
+          "cluster": "HBK",
+          "fatf_flags": [
+            "F1",
+            "F4"
+          ]
+        },
+        "TCR2MdQPakoJ1XwLKTyX8upPioRKuC9oRx": {
+          "risk": "Medium",
+          "cluster": "HBK",
+          "fatf_flags": [
+            "F3",
+            "F4"
+          ]
+        },
+        "TM77iQZN2iB8Lp9iztANZW3Ut7zT9oveEP": {
+          "risk": "Medium",
+          "cluster": "HBK",
+          "fatf_flags": [
+            "F1",
+            "F4"
+          ]
+        },
+        "TVeA9CfiDbG5ZrbgHocjsyeeUJD147Jqsh": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TScGCh3KRuuuUPuizfxi2fcrQRZnAu5JRG": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TDqSquXBgUCLYvYC4XZgrprLK589dkhSCf": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F5"
+          ]
+        },
+        "TF5iHudpW8udDeNew3QPNjzTTe3EmnSj61": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TAJpZ2Bh5ArqikUsWU7WMzGKZnBnn9FfKz": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TAKhiyz56XJjtCGACDDzHQfuzN1UBLYUre": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TAU2DW7B1XQ1SjAL5nKpsGDmSknXVTAjay": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TAYm33Fpi4YkxjZLQL37Db9M9EuXESdhoD": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TAb37RkKgfLzcyGq9Dk34y8bxjrfPwA7KN": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TAj17eqJRFzSsPBpmSzhHHq8Q2d9d9DULp": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TAjqXJZddFTeS9jLePYTck8bBeJcyhEn8q": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TB1X96qQHrxb1WHD9SintvXvyqewcQ5dGn": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TB4bBZiyiseG5zbHVe79PECHqLWYCA77Tj": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TB717tyKWavVnxt4Lto9Anzdaz8q22j3wV": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TBBWBtrbM13MvwAUmpShfu58dq6SU8kgz6": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TBEeeWepAQ62FjKKxJie3EUbZPT8hVzoxb": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TBEkaqp3W62tXfjU84v4WF3rpKq5Akjr2f": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TBK9aUYypUBwnD26utfyULP2NsBZFuT3C6": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TBMArzpCmD3QS5tfpAtFEkFvay1uSakxjh": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TBNuByrhZSGqu9tC3ERLRBagYGyz8Tankb": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TBPKBUV6TbDtBNoff6VuhbM2nMvBioEbwi": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TBQByS6FLZa1ASU1vUEjHNKpdqWqtGtGPW": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TBRDXX2upTcD9pViAYsAY2cvYCgXQQWKBr": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TBZ4vN2moG9gC79dWVSV9ZSVfwr1WnsSeb": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TBs1MGZfFdgSL1NEMKCzvpsocZEECbRae2": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TBv8k1cKMgyacx3vHcgK41FzG443EMu8PU": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TC39WG4xiv7eKaLtesRxi5pAngyRWUMdmt": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TC4m13x4FrmC6bBTWkspDbXrfMtRrN9uHL": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TC7oqFGgBc1yFZxWr3xyXCq4zfvbc1MadB": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TCEGto1amkfwaMpqjY76e54LERphmiCaWz": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TCETAbG2LYHczU6MFbiKdDYrNit9Kgtksa": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TCEZFnYuiYHBrNe8KDLbZLpRkuCU4STbFo": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TCoVUed8ytp71MLSsnEeftWaT3EsqCQx6n": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TCpqJC8RYMFAfM1dbAaxqrRXzYiYY1kff6": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TCv3TVmTmWBzc1XaKtjAVyuHESzjxH5daz": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TCwUbYGzuYeF8QjygbFaziLZV5Cpx539EV": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TD2tYTbvmqQu5TxZ3cDBSCVV5okLJpwghV": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TD9T2NAUzKjkkSiSR5ECrL9R8KLDEzaqU2": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TDPkh7TFE3vQq7rKRU33mntd9UPQNdkutE": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TDTZ7bGHX14wEL8nhS2kZDAT6QybADie43": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TDb6bvkbqCKpeTD93kLKf7oB2LbWBTPGFQ": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TDbyPv7F2BQaDjwqUTe3GcQEYjRYfttQRW": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TDpeh2jbPo5ZRapLMfdrtVraKwnCrjoh2Y": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TDrQmJjV6XVu7utypK7f7JiNux7CfdD4JA": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TDxXX9qo6S1puXTqdDgNuMP19sVwMAGbYa": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TE3eqj9DWHQVXUzLNxJNQj7Fotzmi8ETWT": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TE4KUxjjh1ykrV8FBdTjAhaFVhZgJ83Sfg": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TE4acQj7kNpH8yGQYqnL2ucc2txsHrdgqY": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TE6iqjDidCysb8n2ZtaVnNVfuNwsXEUeNX": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TEFAYs3qrLC6iXfBgMopPXVJC6fjHz6zgo": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TEFnRxd2GLpLR7NyN49v8NDB1YKRQ6DRNS": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TELj7dtpwQZdmWayfUpbjc6p4HQ8HgyEFu": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TEP74YPA7VDKpyNFXUAwzZaaaVuxKPo1VX": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TEZwApcVNV8QqNhuUvCsmhy48qNu4fTGZP": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TEbdumqaKNEgnMXSqxLxEhSXzyUaEPQGwB": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TEcRGJ2taYtA5zqM5UfSygkv88HiZ5ohFz": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TEo7LEAbt55zWJfT4SmpZAhfwHhp9XKVFc": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TEuFgTejM6TCpZeBNUMo7SZnAe821jsGED": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TEx9Ha8j7d6kTfaPyqzmbcFsqxQ7dTT8J6": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TF55mBuHgf2bVXAiNiG9D14WHmS4EekRh1": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TF6Fwp1DYEwvQTkaa47hCftziqN3p5aQb4": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TF9cRBv91oQ2yyc8KwKENCxvejbXEH9WcF": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TFLuMVdMZ5vammHNoEtVNwmYe3qrafJNcR": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TFb7mjNt4R5Tk552k3ts6Gq3XDLq2cXEVQ": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TFbmC4Lzg4YwXZvvgCdtQQpRZkdr1mGfNK": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TFe1GwP1A8mniPYUVRxrpRcaRofo97ubZt": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TFgnXYQ3awvGwseGmbzSrAsfkD43ernWx7": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TFhdE6N9RFpbSuVnEqQ3r6CWA4oaaySCvm": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TFr85dg1DqfpsodguskYmvJxw4ikyNYiQu": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TFuZ78whbqffKBzHYtfaf7UiviqWJvAaKt": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TFvspWo5Jnkj1GJGCBDrUeM7CFG9rsPXvP": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TFvzrQGuor2dLRof1VSkrsLF7cSpbC6Y7S": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TFwnFwYRoZRpuBgDuVNZymq2B8AHeAC3To": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TFzSxwfGEXdq7MQbuuzdgU6NGxBxzK4Tkh": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TG4sU1YkL1FHmUWfrrhqrAkfEuyybCMbw9": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TGGkTPQCHkKkqt8dHiNuBQ78nfHmTW39gr": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TGLUNbFTqM1Vjw41JpbYfkTMqWEsGJmoF9": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TGTZrp6kZKPnuYSYoovENamh9AMj11PTer": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TGUn7YiwWpDWKVLhE1xy8KZjbG4APAWbjk": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TGVMWgtrgrCN73zEXsQry7JujiUW6XCccc": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TGcydudzZHAXbG31w4gnTz9Muc3YirL32i": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TGqMHNJHiB9WdrigoxwrXn4cJ6jsdrepfj": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TGxKtTK54JMgdXfXLqt3bKayVGULMqcUkh": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TH577cFnhHmrerQMCcBMH1PzLDFnpktEPC": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "THB7ytMAet8cUaNiSCYXXkjG4EAzf9QuAm": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "THBb58MnA7dhqfe6mR3FAm9oobhPRgufeW": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "THFbKaWkRfdWUpqVVxXgZ8zD3VutC9HaTt": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "THFhRHiKgzNC4bDojmq4uGddTFikmq5bhm": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "THW9tv9jk7ZdwenGrBSyQeKQE15qogMy5V": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "THZnGnnuVQk39dn9mPun2QGfo9pNCsww1b": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "THfrCTfQ9J9xiAiwGnAk7ShKJdfBAZPAJN": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "THhDayQKrQqnUk2tZUnNJhYqimXD86CsVS": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "THnFk2uEYDZfPfYpTyfr3ChhtGMJT1tr4m": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "THppuwZhYySvAX1fVcNp29uuSX7pmmeTwh": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "THsHC4YzRaR8rEYWAcnhfZqhN7d7vx8kyZ": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "THtgsurdTTkYRyKjjdNd7QW2T2A36qkvRY": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "THwA61xh98Diiq74Y8hQh1D4Mh3iuKzdzR": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "THxzSdxzZQkHxtPr8busrM5MrZpwWmJjYH": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TJ1WWGqBP4f9vZS5wQgqoCWaBgKjTdt7TX": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TJ77ko9wczWRghkmkwd4TDmnUGKfi3VfJW": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TJ9FR1bsKdc6GwsmmEdRZdCTT4oPUE3iad": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TJPp2vf5RJjDi7ZmYHp7HGYxLhH7ZBa7Xd": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TJRsY1FDCCcBQV6oXSex2beFDnZN4UNFdt": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TJcR28edabsLkcuG1yKBLnArFsUGgVqf5m": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TJdEGDwuRcCfBtQ2bD3knSQH6sF5mqpvkN": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TJeyhLoCxmu1vSZhpDxd97LX4EojwvnPp1": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TJfGpShMGJWmCjf52uewHh3ryM2MLVSuEr": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TJghFgD1RQfbeM3KTgj7ryRcQGspLcMimc": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TJrZkYNK7d3Ks8yzVcfdj2idnLhmG1BPyv": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TJvGmKmFB6UGJVz3FH1YNVfPduHynynj3Q": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TK6MnuvffqyNMmeUGY7WDKHhTdRPH4jd3u": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TKBTRGxdvpyN39WeQxVNvLuP6fE5zAtTdc": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TKEvGWdTJHufzYBue8frRY5AXijYLmaRg9": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TKKkEG1778URgfZHzXB2KowYiwn7Z3e2yc": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TKMHGyEMFhU1A4cCWDNxg2mgwkVXvWnz25": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TKMoDu5yuyM47RwVt3Pff77D1EjiD932yi": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TKNdHRYJ1TAFWyEFhtWejwEHEnrPdCzAwi": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TKSPuaeu1YokGoCBTqKGgWXgS1zHL4oesp": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TKThu9N3fj8AA88xfMudnfAH3mJiB4rkKp": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TKchXnNSF9wZgFDndXuP3efQjtogEfTjJv": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TKeZxYWjLqpAN8uasr4Wpba7kDyTEsT4Du": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TKgZ4LvE1f5chJXP4phYQFk1yN9guxeu5h": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TKghEZ6s8SoDoDzZoCKDYQPTWWqYxvR4JV": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TKj79JNjzxkNPfim2XXkuUxUNJA4i4s7Wg": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TKzwJaLaewsekwx2N6YeqZ3YVaujW69Rxc": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TL3BgAtsafa1JoEW14cGbsWBjdBxhusUAD": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TL626r2NZTUHAxzS5K1Gdyr6GsVG27qQye": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TL6w5bmXdE6H6apxNzmtCV11oguv6h6iiS": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TL86UAm8NTBnjGxqgVRePzRgAnebs86K7R": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TLRBtjJb6AymyueujtBiLE5oMtxhvwWmwH": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TLT1MmaNWgLQiy5gRZs6NRQmPQ4AJJroK1": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TLVw4XKe7Gjv2VG1Pm3b31BJJTsHHaxxUT": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TLYsWXtagrYwaC2bMyTgASFTd8anx3xnP8": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TLamwPXR6G81T1tJPUzbze7yp1HBeyyeWJ": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TLfpSp8FYFfv1wETzgk8ugo8QbQLxoYWfa": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TLmvkxCMLqLYU5CoCFVXCZskJk2tySDN2H": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TLntW9Z59LYY5KEi9cmwk3PKjQga828ird": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1"
+          ]
+        },
+        "TLpLS85cowE9NH75Fngad32faJ5hbx8Gw3": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TLw47UNvt7kryTU4z5u52JkTc3Ndogkyin": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TM72Rip2dG1abNZEH7jCVVWA7UKyZVY7k2": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TMAVV7ubs5WTwCrX3isYBzoz7SYRnRAfFL": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TMAWNsZG1W7NrRYLyxXzvMtM5d6Z2QQ9wY": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TMB6dhw82Bo2w15KEWMAyk8sgcFXWZxBPP": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TMCcpEfaiH2sSLuwbRdEqZFfcZ3M7GLV5P": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TMH51NEpL2Tg5Qizu4yzR8W4PEVkCYXREo": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TMHpSMDeyHWvUaMLZjwxWvPKCvczPRYRVk": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TMNYZD5c6SQtiog3oiexEEXZea2knEmwmc": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TMR4irVsoEzLEF7UrgmZ3uXaEkuXhXXwwh": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TMWYE5SeVcHEYwti1tiKApuTpKTGxLb2CW": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TMXqaupw4J6c5dPNeb2dNwg31YFeo5EX6R": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TMZKDx5LtaPHe8Mz33AAW8xbScBpfcxnG4": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TMadArfRNehZLb55y7WcXtv3mqm5GrgCJL": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TMf9F2FGnQJhLdGRpXsqbiP6WuKQjGKdqA": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TMhm5Z8Es1DsxW2qQdYo3RiZmHDthcyhRM": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TMj7mgk18dprcB7Nnoy7U64FbbBEr5ptFL": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TMoP6GJJXt334r94zwSDcVxBcU4MKFpyZR": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TMsj8RMpQBZSU4wxQd1XmygsDSeE34VVBb": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TMuzw3HnCZF81rhgzmrEqm5ah8k5biYE74": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TN2gHkVjniBhM8Ce1JNaqDwA3uTbrz4N6k": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TN2pm94784XMKTPgwt8K37dQYjV7SA4PqR": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TN3iR1tgw8Q3twPjnQzjyjmSLLapVSrYhR": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TN6RVzK2mdTN49YTRvKg83CDdh9UGWgni9": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TNPJ3ZXYSuKvWxABS2Ajx7bv9RBXVyuapB": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TNPKJDD1E7tHk9tJxdMK9d9enE2RrLW1dh": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TNSySHff9aWP2YxeUCPh8UaKYNtWgkxFuR": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TNTqtEPsfbxBGWUgscDvfZvUwrZfzXAEZX": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TNV611nXAF1Av78HbPNQPUdBuMJFDk1i9x": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TNtjmf83qGwkdCDkJihmaThB96svfGrYUH": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TNv4kSAKuzatvWN8Z3VwKs32arsEpgeozJ": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TNwYgZuWiCJPq37BknUHkRF3W9rfvqiEMB": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TNyJsMHj1TrEiGTjLQ4xhEUoyQj9BvcjQ3": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TPACtPJqxtU6n7tv7DwH5KtNTK1xrqiiQd": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TPD9EhwX12tGAGrDeBBcwDbGsK6zv2t7bd": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TPdsAqbedJ4ETGwebrBWx367sjn5MrkiLF": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TPgweHcmnXTkXqiRYzKXbhfLwLwvsVELXa": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TQ3apm2vmY7tB28Dd6uw4iXErzmUZZRp1z": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TQ5MTivQJY6kpirjBiLAUJdu7ki3sY6UmG": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TQN1RBDo7LLQsCLg3483FcJ7Vr4mccdFkw": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TQWBDFA6acMk14hU1vAwKQt43mcmRu2whd": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TQacjAisNBomCiycW4nnggYPM2r9YFU9oZ": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TQc8rZyw4fymQAejBBkCMKT36hjJJSm2Gv": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TQhSxbtv7cEkf4jg1VwGbwVgytWEHXMovm": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TQmBAwfZptnAi8SCGsWjdzHDaDLNoFSccq": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TQmVaRLwAYDvhJguh9xa6Xp9cDBrE3FLvL": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TQqbDcmAGSyZEiwwYJPcvuh7aaPH9qjc6m": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TQr2xgRQ3wqDm3Q1qVudeEGfc1WWCmgoAZ": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TQxc7uUBhJbnFGxgtvcubcNhntJzoT5nBe": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TR3hdYzFnN4C4Bjkpg1xy5QUX2ti8MeVdE": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TR4VQB8abzfn1JyTx6JLmdzza1PTVDumzr": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TRBUNQB7kwq4MHp8BwK3214EAfXgmFRTAj": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TRQMQV88pgop89pqZz2A7AnGZYJCZgsvjc": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TRSj8Y1B1hHkompqfvPEW5DKd8F7srLU3U": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TRUtRheGuckaHDytpzHMM3D1sK8K4b7Mq2": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TRk2qacW5HFTGV1Cq3gnTHfjf7k6BWZJPH": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TRmgP48Xpfeuc8WzN9nRF3N2WFnMFHm2xQ": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TRt2AyU7yLPSnhnZJHE4C9QPGRQZKJzXSQ": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TS1DqSriJEyv7UjGUzNBoaxBP8DGh3FCm1": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TS2WeeLLJun35ZpSwFy2PgtB2s4cGu6gmX": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TSAS24BN2QWXhS52gFMyNf6a8uJBaU9HQG": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TSDrVcq4tkR8NDo5CNZqTfkf2eR32tBnB7": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TSTYyMGfLD8p5C9UktCoFAc5RwmWJMQs8C": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TSWyniLLc11xTh7f4doxp5jzzFt72tauRj": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TSb4A1Uyrx1YsiiRwDWSAQxKPQVKAFLTf4": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TSbmuzfnAJGVaRMaw8DbZG38n384QjHcEm": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TScYgr7PxrswtGSqxcsqv7Gp9DNN9RZMFC": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TSdPCe2LaJk6DcufKZMiazhQDALdrZHakD": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TSoibP6PDvHL1o7PTCyhm4D39c8WguHiAG": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TSpBJstiEfDtCuGbWjEmm73MqTmjAZptS9": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TSu7Ngs8bDyYknXLekqq7Bs5FnP5Fgpox4": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TSwwhwLNecuhwiVfvvBgfiXw1LkbaLQvTx": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TT4c75yMhcojhBEeEAbVKrtPSAC47RUdri": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TT6f9vPNyKJ24o8UHtrko4hbaubausF6SQ": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TT9q7zgF3nCFp95U4KFevndxgNi7aXoiLi": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TTB9JhkdztbckG2aLffNe8DiX7fp882Mim": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TTGBAZycRhBJrmjNhqoyzuoU8z8g8dJwMJ": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TTGP4yxmBiu5Eugze1qrjSHaCeFzEdgAZk": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TTHU3Pn1vsribJuSFo52uDU3YHhnk7No5H": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TTWQro32zaXRYnwDhiKkoA3JYbks4rHn5C": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TTa1XuqCY2fvnpg9if6vbAoWhzkay3m2vP": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TTcUjbkuahvnHo88ZAgXHWQgykQuiYKyyD": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TThYdw9JDkZsSZghpmzgM6fCfu2x9ui89b": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TTnXzsu59p5mXwCvht3LcGi2U88kTMf3bD": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TTtsEs5MqeYwPqUo3Yyf8XN3uLbpgKbr8t": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TTueYQ9xRHcZV1aGhj26zUdfav1WLhNzxF": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TU4EUyacHr7rNQK6WrJVk8GW7EfnncP79X": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TUQYqZcDa3NAitFrcG86gd3wJFZCGstG4z": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TUYB413JBBQ39wEJsQWygM66EET6ynP8D8": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TUdf1E2oaGrazFTwRr4gYCrdQsHc2DmwAu": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TUpcDSFhUGKHtAhrm5qKXnoBgmL9LBLVxi": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TUpt4vTSK5CmCsuVD4onnZFSc2Z3xRrcae": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TUuaQ9rjMkf8M81H5DJWfU67hRkDfz2xes": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TUy7ixqV8yaepjGxjFidP9cD7Ssk2RLQCR": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TUz6ikEB4CwTKY7F5Ku562KZarvsuD8NL1": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TV1Qk7KjaBrvbcZBvzeTZF4d27hHYV8xua": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TV2DLj936hzzqR6gaw3RfLpvuv2Q3WamvW": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TV3FG2pQf7eyKQomjMj6LsLrnM7hK287qX": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TV3ZY8MZMHBdaRYgRPTGuH5ntgiMgZBSyQ": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TV9UUQQjeU32AYhcFHq6Rz17SkVKnUuJBv": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TVFHHrAZJiDqdFYBBojtRRJvsfz4Leg2Fg": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TVFZBsJzrLv2DDndZC6Kx7y4UpmPEfNVvZ": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TVMSGpCgs2TDm58YvbveLU27z5vwA9kYdC": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TVMY8yfAeeDU3EubE7kK8qjuaNEBR67Ze7": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TVVJZGcD95LCSsKS7w1APQ4ufin7njtaEV": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TVWqCrHjav7EYZVQE4TSAQ5w92ktF7gL9W": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TVbd3GXWo2pEuRHLp641pPg981mwaNf8PM": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TVfbtDhFLtfBNBPC4kHR2Gmh3yJVMmeUbe": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TVh511ggaqhQPFHBCh4WyhNpWdNkYmSaVg": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TViVgRsSvZxB9KQVUt1aPSa9aBhmv2wCnW": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TVpg1GCXVkaWaibeRJizb9LkL6PSyqtJnC": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TVum8aPP8khqHSDdbEroQLZzgzf3X3DXLj": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TVvyKhBY3T6oLJsN3ZmJvowFCUrEh1f4Em": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TVxd6RT7hvVp3rMZUDBstzp2xTBJvaxkAT": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TVxsvsSu4kgg23K9111GmmKmep3PbC2McW": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TVyphVC6GUmN7WBLYfagpJbHGCP2sTf99i": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TW3vgs3Xt327cEdwRYmRnvtgjW9MJFxvDd": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TW5UCc1sr5GnXzDk3kd1iHrXEU8WwZqbmh": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TWGDTWNRo5stdVFq7r6T9f39E7wMBSWX4T": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TWNqCpjrywRQrWL7Ldzbz7bCgjd8Sys8pJ": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TWPR2m7nzg7oEuisFkySMTvQRrg3oeM861": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TWRXj4SDWiBJZraqkW3onPfW6drDkw5aJx": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F5"
+          ]
+        },
+        "TWbnEDsE9muD2P8FFxQCLfSLwKfdBND9h8": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TWdiJLhZPrYyX329KRJpQwRD68cnLoEBrv": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TWjJVjKRHieRqyAMU3Q7RCoaAaY8BqN9F8": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TWk5o42adaiiaKNAw9sgZcNxoNEnLz2Yy6": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TWmWTs4y4rSaAtb2jAvmQNPw8j4BTAPYuS": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TWnfUESTjd26Su5YwmriHWgknoG8GLF2FY": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TXKJAEP8moHvAJSkwAaQtAEeLmgQPxVov9": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TXKqmLsMAVMv6ohJCfJZ3HErRa8F3YeZsV": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TXUxRfzXYmvAyWjwZEX92gR7opL3v1iX2M": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TXXySXwGcbtkeffACh5sUMDirAaT28o229": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TXcULg7JPoqc313gmQyDBzv1SHAj6usBGK": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TXgeaHzE9ks4f6GKST6tyMcnWBjnm5t4HT": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TXsCPQfBA3YF5tV5Gc1RfMwD6PRoEe6dxH": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TXxTsr4fs3X3yesDXM7XXH361S8G7sLB5E": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TXysWiwBthNee4GwPK7h977awX3zpVcj5M": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TY242K8vS5PuY7LKyjHpHt4dF58yrcdwKc": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TY3ooMSeZGALr2bMQfgn9C5JSxJs9FbMnz": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TY9HE535sudTrtTXUz4mdiT3z5Ds5g9j6r": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TYAQmhe2Bfrzhi1zgwMzxHvqcEHVM22Y37": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TYD6fHGJ6QebaWPJcidAff4pTtgsi6gxDY": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TYHFNvAhXB9fpxjc5frZNaBk6DWWcYVbcU": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TYHJBnbsMS64wtYXaqnfU2DM72LFmVDXGM": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TYPAa9Dvtia5DEYRkNKu45G54anfAwnCN9": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TYW7WfXdSgGjiFe5SDCfirJMpwuyMZPCt4": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TYfxMFDetRN3kmPJrS4ajTnQenLvoCXSeY": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TYpKw8tezdFCWbLQWSrHGezJHVfWxtLTDA": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TYsdTXUZHHsWuT6VeHXUAUm4BLQSFppNog": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TYvZyJk4iwWwndLwDxkvvteXoV32STgPRJ": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TZ11CRWXSpSDRjZ1XW1zSXxpTXvjjDXdh9": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TZ1eU8c8N197MkwfQeCfXaZ8J6yUuSWZTn": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TZ1njipwKc5UQnGZfjrexGWjvyRzmFzmUf": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TZFte11Xjp2F3s1M2zcNZvjD2wLcwWN5KT": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TECbrZKomNWhtYGYnBuk3Rmuu9xmUkKzza": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F1"
+          ]
+        },
+        "TMd44ycqBTG7kFDYya8zyLeRMotRUg5UXu": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TJcEb4b2VktRxvj4Ws4BDVgAfewJkgfphn": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TQrY8tryqsYVCYS3MFbtffiPp2ccyn4STm": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TJ5usJLLwjwn7Pw3TPbdzreG7dvgKzfQ5y": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TJDENsfBJs4RFETt1X1W8wMDc8M5XnJhCe": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TCLgK89AnXbC9rewvhNb9UgXCc2qJJpBXh": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TFe5HypYXQtu1oegwSgqJdN6Hmd3arQbtk": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TUr9s7t3HzF1UuXpdcS64tscHeaQswCVM4": {
+          "risk": "Low/watch",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TTmjSPwndzy6XSxDv2ExVcvAvGLy15dgwk": {
+          "risk": "Low/watch",
+          "cluster": "EJon",
+          "fatf_flags": [
+            "F1"
+          ]
+        },
+        "TXYUHKWFKoF3rimRV7H6dDnXCEHuYn4U3L": {
+          "risk": "Low/watch",
+          "cluster": "EJon",
+          "fatf_flags": []
+        },
+        "TVBGQG49TDEq2M7dzXcTdfe5F1yYZ6ajre": {
+          "risk": "Low/watch",
+          "cluster": "EJon",
+          "fatf_flags": [
+            "F1"
+          ]
+        },
+        "TYzT71LjeFTbXeTU31ia1tf6hA4ceyDZEN": {
+          "risk": "Low/watch",
+          "cluster": "EJon",
+          "fatf_flags": [
+            "F1"
+          ]
+        },
+        "TVu4zcg6Fe4CE6aYjRYufgQ9jMrXDctiyF": {
+          "risk": "Low/watch",
+          "cluster": "EJon",
+          "fatf_flags": []
+        },
+        "TDmAwJEFDDm5WidfgXhuZmUUXxRGfXFiXH": {
+          "risk": "Low/watch",
+          "cluster": "EJon",
+          "fatf_flags": [
+            "F1"
+          ]
+        },
+        "TFTWNgDBkQ5wQoP8RXpRznnHvAVV8x5jLu": {
+          "risk": "Out of scale (service)",
+          "cluster": "EJon",
+          "fatf_flags": [
+            "F1"
+          ]
+        },
+        "TYidNq94hZWLidnLwNjGDwoWjD384HV5Bb": {
+          "risk": "Low/watch",
+          "cluster": "EJon",
+          "fatf_flags": []
+        },
+        "TH62GW7KkwTz8iKYqKFcMKY26QKaHwtswN": {
+          "risk": "Low/watch",
+          "cluster": "EJon",
+          "fatf_flags": []
+        },
+        "TD2Ho8JE7CoUyj3avA5cJaU1MBAYjLdaQG": {
+          "risk": "Low/watch",
+          "cluster": "EJon",
+          "fatf_flags": [
+            "F1"
+          ]
+        },
+        "TP4GDZpW4hhzFaUuFTb2JaN1YGj6jzQT41": {
+          "risk": "Low/watch",
+          "cluster": "EJon",
+          "fatf_flags": []
+        },
+        "TD4fhs8HLzjBwt28pqPGume8MJCh59svnu": {
+          "risk": "Low/watch",
+          "cluster": "EJon",
+          "fatf_flags": [
+            "F1"
+          ]
+        },
+        "TFTWpDZf4BDQWj7aLzQcF62FYyak8x5jLu": {
+          "risk": "Low/watch",
+          "cluster": "EJon",
+          "fatf_flags": []
+        },
+        "THuBSaEkZXwbboBrZfY51MFTcv8mAi15dW": {
+          "risk": "Low/watch",
+          "cluster": "EJon",
+          "fatf_flags": [
+            "F1"
+          ]
+        },
+        "TP89Q8CTcmjrKM8ztBmAQ1T4R4Skm6tfCt": {
+          "risk": "Low/watch",
+          "cluster": "EJon",
+          "fatf_flags": []
+        },
+        "TXisdWEWPFUZB7JCHcheiRoKgbuKh9wy5w": {
+          "risk": "Low/watch",
+          "cluster": "EJon",
+          "fatf_flags": [
+            "F1"
+          ]
+        },
+        "TUzmTTXbjbPBLDJ3CFcbkB33csinjaV3px": {
+          "risk": "Low/watch",
+          "cluster": "EJon",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TMJebHadXFiNnniWY2V4stQkuJkeqVt63U": {
+          "risk": "Low/watch",
+          "cluster": "EJon",
+          "fatf_flags": [
+            "F1"
+          ]
+        },
+        "TBxvwPpfLzAqHPiJriqN6i8SBZBQueXGTq": {
+          "risk": "Low/watch",
+          "cluster": "EJon",
+          "fatf_flags": [
+            "F1"
+          ]
+        },
+        "TPKMR3Nvaek935NHALsQ7bMoDp2GHY1bTd": {
+          "risk": "Low/watch",
+          "cluster": "EJon",
+          "fatf_flags": []
+        },
+        "TVMAbpjgfdCjoL7n2sDk2wLJbVzmU9XHBK": {
+          "risk": "Low/watch",
+          "cluster": "HBK",
+          "fatf_flags": [
+            "F1"
+          ]
+        },
+        "TVD24xsrVezdQoHXfri1gmBpRjjWpTWJEk": {
+          "risk": "Low/watch",
+          "cluster": "HBK",
+          "fatf_flags": [
+            "F1"
+          ]
+        },
+        "TAASJtqFACDGLSjgZ56ENtfFsBW3Xcg3R4": {
+          "risk": "Low/watch",
+          "cluster": "HBK",
+          "fatf_flags": [
+            "F1"
+          ]
+        },
+        "TTYgTWhShNNn8oP5SaoX1FAdFYDwv9yyJp": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TA1wtkNrjNLnp6Yrht27m8LUHFqyEoposg": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TAzaERha7ZrqXtrHE7rVgFUTTyvnH6BaHi": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TBQNYrW9R8oGsAHn1BbDZg4QmCJUGvMWGh": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TAG3tuK73onGAho5yuXQ6CULuLjVJpYYRJ": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TAgfP1htqHzhBhxWko4qKQH3oHrjxFvyg5": {
+          "risk": "Out of scale (FixedFloat, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TB2jWc4U2PkbpHVEnbKePBsunSqc6mKKKK": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TBLCvoXpLvyaaQYqcBtyVVbkBW4de1xE8B": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TBMDHJsWw7SNG3EzVqmx6GAx2mbR7yEjTs": {
+          "risk": "Out of scale (FixedFloat, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TBR4kYhwiU9Jb3cjhDYFH7oV2n1KsvL5dk": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TBydXeBSJAx6USmfzd3iqwuzeMAeGhXPru": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TC6jWCKfQDq9Mq6Yqhjgq5kScZpyU66adf": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TCmVoRyVjmjFrYsmiqNwAbnpgVpe3DTC7U": {
+          "risk": "Out of scale (FixedFloat, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TDJ1VBVu8HnyWGynrf4MAiCGNGmqf8VrA8": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TDiNfgwXM9cacMXPYWMaUE9vS5QjK5mdSB": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TDii6vao7xyWg2rKPbCPWVRpSmne8xcqYx": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TDoXUNZ6PajKuiUkcYg3EDSV9bnqGqsbcf": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TE1AFh3Wj8zbmv8qohqkSJwyeWzTpmU4Y3": {
+          "risk": "Out of scale (FixedFloat, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TEGFkDxvGpK9uRTcQ1b8QhWo9Q5eaykuYn": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TEYvLMD4nULLViqQoskZDVgFpjeBY947KB": {
+          "risk": "Out of scale (FixedFloat, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TEcpceNCXHbBoLiLhru8HhzXJJxGZyyRGC": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TEhZTJCjZB52Jh2qTwUVoFRC8TJj7RaF6r": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TF6xnUVnTPrZmFiFMxPnQmi9bTunkhQLDx": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TFXvfPK4FUFBccskZpAuHhpaXPACh7Hu5m": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TFaGjRzf2XMhurAZH55PkWqKmM1bDywa8P": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TFj3xYiZhqj75xrvzYEGGehyusHJd2mZdq": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TFjQxAqZ4ZAujsq78a2KTsqjkUfycPnURC": {
+          "risk": "Out of scale (FixedFloat, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TG7kfzyQJ5N5zPcdTroUX8PP57hoKZV5as": {
+          "risk": "Out of scale (FixedFloat, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TGj48AD3hHE4asWDhH9Ffiit1oBzynz8HN": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "THPYq8R5bT24MhQyCQ6kY45qJQekmp58NH": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "THohPk1vWbN6V7NCyMCBqzEKayxc9T3YS7": {
+          "risk": "Out of scale (FixedFloat, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TJBRw7s9YAxBgbkXca5gKP7jH7d27Dqy7G": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TJUgiuGBaVNyi73SkRdt5iKjKwDeJGjMTm": {
+          "risk": "Out of scale (FixedFloat, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TJwj4HnB61d3RXD8VxV5Rxh78x3hiHAGgj": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TKCHkNiZdavbcCe25GLCQeowsuV3NFgmyS": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TKnC62n2wncJndJGSffb49KnkFSo6SW6yU": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TKumjNW6f6gr9p3nMog4B3UJ9iJwaXvkNp": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TMbXWsiCz68x2So2yeFqQUKvwjriuiLTgy": {
+          "risk": "Out of scale (FixedFloat, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TN9dFZJWQy8d3ZsEjjuBKADDM8gGXaQ5GY": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TNRLM8xvw15nAtxkuQ6Qg6aEbLCdG7uQwA": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TNak16nSGaiEzgJ9URwbtgNftzRgbPzib4": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TNtDhaHkUvTtNA8DDRkKX8KWmhZdcJQXm3": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TPXrXGTqzp5oY4Bp5pfiLQhRMWj7dhLRSn": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TQEpGgGpbrf49nh1yhGrMq7YhcFmUdhaQ1": {
+          "risk": "Out of scale (FixedFloat, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TQZJiXK2nsf4cyka4ujnaCXpXkjvjbhU9b": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TRLNwQBtiW8stGXtWebXpozPKpF5w3ijDh": {
+          "risk": "Out of scale (FixedFloat, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TRLYdqcx81YzuHs5ViDHSFrMxhrYiLqJcT": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TRN1yunJwmgobtq398RLHQhJAtba33HQCj": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TRjh6JtHhgtX4Ama464pG9cL7SrNmix1qM": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TRxfctHZk8cTEfMMT8XBCzasta3CckiAJP": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TS8xoKAWmxCkGLWmfxKcPhtiRDkTjp1R7H": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TStcEzx3JtvYZHahoW1kULbKdBb8oQF1UL": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TTFZJz8viQg7QuEGaTHAC2SaYxrmDtngGN": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TTJTYUqKjV4mSZnFGZwuZyN6gXjJDc4vqe": {
+          "risk": "Out of scale (FixedFloat, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TTa2dExM2DRsXHZotnQV2xgctBNveTUcfm": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TThoFcm2x4VUFLPgY8rXwCkWLLHy6fhuzD": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TUGvUSyWeYqEH4hJtx5LpDLEg4MJ5rY1b3": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TUSpFJ1B5sbtxLwAqVMZJFPhXPwnkoAroa": {
+          "risk": "Out of scale (FixedFloat, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TUeeDiPr2ersQBgL9WucxGXwGwAhqwna3T": {
+          "risk": "Out of scale (FixedFloat, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TUjuxaqn1exSpyVJRC2ZE5D5NoVzc2iUpr": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TUsL2TPAx81vEwpojbqRDvvmYzVUzBg63c": {
+          "risk": "Out of scale (FixedFloat, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TUtmS7rZcAK1tFjNqdkTYZYrKcYTQNG676": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TUwTDXr2mGqvbunZeWSVie5oBFZfkzyvdG": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TVLx2P9U9bBVyHcN5XydR2G85aR5TVcoVC": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TVMvJmeqXVdRuoaKaTkMkaV6Eagu8iYA6n": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TVh6mBP25aQtcvRWVoR6QykGvqpsx2gYdQ": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TVyMCp89VGnmcbbdM1evFsVh8faYUor7Cc": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TWq91qvcD8bZo26TZ21HNSbJEEfL9WHLku": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TX5XiRXdyz7sdFwF5mnhT1QoGCpbkncpke": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TXR23HGVNMkbkTcrFeFSNqUvr9UFh4tAYF": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TXfCDGfUyGdQh5rrCPLvUizvwEM8aicaqZ": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TXytNrsM5Rs3Ub6GH7s3X9xowH4t19arHJ": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TY2xY3GUkKiqTRKnad61QiRCGdbSAhQrmC": {
+          "risk": "Out of scale (FixedFloat, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TYAhczJpfVrzWSVHhHyUKvCVKjLruP19dn": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TYCdVSo15qdrameHkpPYJBcGgAD9FBFzGn": {
+          "risk": "Out of scale (KuCoin, proxy)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TW2UmTMJPEMxdBW3WNe5jvsEYAydUafMEv": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TKx6mcdqGgmxMRWMWpTDFq1iXVs3LrsXpU": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TZ7gAfJcZDodvxTD99TH4RJABVX1gMiivM": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TTbCVPfUZmPhrB9sYC8GKgGBQQEdZovkmS": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TLQwDaSRm81bfKiYDy5GSwZ1k4WpfFKVe3": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TJxUyiPrcyAC4sNgAZ7UNJquPSiGZVjTQp": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TE1vdfcM2A42BkG9RSCU9K9P6TiF5aG2Yg": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TVX9iezirfb3mLdv8rUimM6khYwg16aGA2": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TWjADEzjbGabjB7d3WftgwJWDNoHajK4mF": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TUgWgyHHuRaaNoAYfo23iwZSCX3f3PrXyw": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TTeDkpFA1XocfbUU78e7qprXzCwE7YAhpv": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TYC6AJxZoyoz84Ri9FZkkSq9Jo6UtjCoe2": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TWEsfePgFJr1FK8wLj9BN7adSgTrCxvnZk": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TAUdjRLLT8c8mENyd5ZicYUU7eu1MhzyZz": {
+          "risk": "Out of scale (service)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        },
+        "TCusuUYZX1Em2Weo3GTLW9Rrj9v3Gt49F3": {
+          "risk": "Out of scale (infra)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TKpn4QSQ6Q1fKkF67Ljz2qmnskrLXGi9tP": {
+          "risk": "Out of scale (infra)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TJWgoFQ1hBtq2SyAxocP7acj7ZXo1K8coH": {
+          "risk": "Out of scale (infra)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TZ5uDD5asKpPvsJLKhCiDiL8U5jLNyngXq": {
+          "risk": "Out of scale (infra)",
+          "cluster": "CoQ",
+          "fatf_flags": []
+        },
+        "TWS1onJnNTg8tJHomceqxBxTsUB1DHh7PV": {
+          "risk": "Out of scale (infra)",
+          "cluster": "CoQ",
+          "fatf_flags": [
+            "F4"
+          ]
+        }
+      }
+    },
+    {
+      "name": "TRON phishing kit and blackU stolen-USDT storefront",
+      "repo_url": "https://github.com/Kristina89-oss/TRON-Phishing-Kit-and-USDT-Laundering-Network-",
+      "addresses": {
+        "TVy8p6erwrnkkfmvG3iPGpUKswMZU36uMV": {
+          "role": "Shop dispensing address",
+          "roles_observed": "Shop dispensing address x67",
+          "note": "CASE IOC - primary shop address Jan2024-Apr2026; Owner/Active permissions transferred to TMrj6PwDuGr9jinAUeTKMF4dkcZ218mxof on 2026-07-01; no activity since"
+        },
+        "TUYsrozyqdhsZX9Wg7eqL5qFJBB4zgNMNX": {
+          "role": "Shop dispensing address",
+          "roles_observed": "Shop dispensing address x39",
+          "note": ""
+        },
+        "TCG5MvtaTuToCwrzijNLMiRbkSSnnnnnnn": {
+          "role": "Shop dispensing address",
+          "roles_observed": "Shop dispensing address x19",
+          "note": ""
+        },
+        "TJh5zGuMA4jLeAZNbAFFQ4t2EkacYZgxa1": {
+          "role": "Shop dispensing address",
+          "roles_observed": "Shop dispensing address x14; Unclassified x1",
+          "note": ""
+        },
+        "TGT4w2vG7Ck9Ho8cxxbHj1UsURbLGCVXeq": {
+          "role": "Shop dispensing address",
+          "roles_observed": "Shop dispensing address x4",
+          "note": ""
+        },
+        "TWJwbd4nyXrxtVHeqvmuGwodFKmVKRpMna": {
+          "role": "Shop dispensing address",
+          "roles_observed": "Shop dispensing address x1; Fraud warning (address sold / non-delivery) x1",
+          "note": ""
+        },
+        "TBhS8myVedbwEqxNhgVsxYpcjqAmHdWp6h": {
+          "role": "Shop dispensing address",
+          "roles_observed": "Shop dispensing address x2",
+          "note": ""
+        },
+        "TLZ5zFqu6FGeXQxFEGKWQdksKA3UWCSq9F": {
+          "role": "Shop dispensing address",
+          "roles_observed": "Shop dispensing address x2",
+          "note": ""
+        },
+        "TYJTbzKnbh3uutCXp3roqu7ppG3JRBqW4a": {
+          "role": "Shop dispensing address",
+          "roles_observed": "Shop dispensing address x1",
+          "note": ""
+        },
+        "TZ8qepZsjkNjzHYcwTuHq5FaHpZG1Gbx18": {
+          "role": "Shop dispensing address",
+          "roles_observed": "Shop dispensing address x1",
+          "note": ""
+        },
+        "TRbENRRBco8fF1FvFGeH3Zn9DLK3aMAp9a": {
+          "role": "Shop dispensing address",
+          "roles_observed": "Shop dispensing address x1",
+          "note": "CASE IOC - shop address #2, announced 2025-08-16"
+        },
+        "TYCBsKvJSrLoj6pudJCLFNFYdBcntNP1gU": {
+          "role": "Shop dispensing address",
+          "roles_observed": "Shop dispensing address x1",
+          "note": "CASE IOC - shop address #3, announced 2025-08-16; on 2026-07-24 funded deployer TKvKyfoht1h8 of phishing-kit contract TNf74iFUqdg"
+        },
+        "TJJSU3G76bpAzH8LRiyrSaNd8Z8ADb6Vgk": {
+          "role": "Shop dispensing address",
+          "roles_observed": "Shop dispensing address x1",
+          "note": ""
+        },
+        "TPyVdvBiJeN3mqLoujwa7h5fMg8ntwnAUr": {
+          "role": "Shop dispensing address",
+          "roles_observed": "Shop dispensing address x1",
+          "note": ""
+        },
+        "TMRcMzd4k22UEBLJDvofBRoR3Yzx1BbEHi": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TJ5soAMrgwauw9UjYu52ujw6HtRjFoJkBh": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TCNuksupvqMpZAWkR8X9pmvDjMCJWxmCB6": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TJi5uRQ1kYAybweqLR47mDCtNCkAg5oawx": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TErB9tHA634YEnEbY7aMyDHPySdihVFHyy": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TWWhhnhAmtp5erjccbsnWjEZ7eWxKizHzv": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TLacrd5SqpiBzBpVbvYd1GzN8UfrCESMtb": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TFEMaJ4S2uDcANyvhQYZ27mmpP6E6pU39L": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TWx4xquRPfHDMAvBrHPgsK2TeAHm9D2QqQ": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TWJf9VTrdFcQTXthZNmX5Ss8bpCh3jhs1c": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TGD75fRxubanG7vTfW3peuDmSWRzTa22DU": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TRvQ5Rm9DckijBvR2jQE66NyWj79wKisHF": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TQsCpk1bFWrVmPqKR5piTCxSsUtyHQBvSi": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TSL5T9AFbdji7rxvF4zqoFcgoRzbUw3YKv": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TB9YsBupXS5XVEUVa1azk1oe4JT633eD8Q": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TGwV87fHE6sEnw8BYJeP6NAHNwfG5v5M2b": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TKHLJ1uWomHUcgFY4XNc25UKyr6MMhBUBi": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TAtwADs2ZgGCLxZU7PVTY4Z4Anwm8Go7eh": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TTqSjMAQEHymtda9B4hhMiJ8qeixugQ4Kk": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TReNpmPGchmpwoea3vBNFfkitfPZ3Q98Dn": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TMRNqe7dw2y5nuN82niSXF1EZ1mLwuH81s": {
+          "role": "Agent receiving address",
+          "roles_observed": "Agent receiving address x1",
+          "note": ""
+        },
+        "TYACoJHAgiF97tJeCzhbLV14CyYLHtbUAQ": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x2",
+          "note": ""
+        },
+        "TEYsue1NeTR8mhgiUzuzsYoUjgEw518aH5": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TCzbmh37wmd1hPWfL7tYK1Z4badCsA9YJ9": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TLULwBLV6GYgvimhZmjeLCsLVz3ht7WqLu": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TR8hG7VgC9ZBGLizx6KK5knEoNMmz9LEYJ": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TBJ9FmwLiC9WTgmJtGuPB2vDoAn3WfcCfL": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TQZ9jEcnktomK8dgKK2we3u5uscJoVj4Wo": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TT4sn6JJDu4Auib8eQK9tDvNpsQKznhWqv": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "THShQQb6JiEFC8eTot9qqdVgnwoZfvPQ44": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "THDCrAJvMPfTYGBKWJ6MEfwS3kakwPqagu": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TPaQz6EyQXas2MwuT4ifX8bwiE7zznNpvk": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TN1eK2LLaPPe6jCfZXkgNj3rVjfN8bhCxW": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TMPtepGzfEQAMjQ5u2anBG5A8F9jbWsBgt": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TSrccREPtRgxnvaUnMCjjcSwCEapLHoC1c": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TV6HRQvySMzm3GW1iY7C9CtWgEtWNoCecT": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TJUBCKaPhoqihA2jS8X6H98xUGsQGYsJEz": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TP9S749AqhD4LdJ7C9uDD8EYHFYYtdXSk7": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TQ8dzppuEWAKkemhbAPtKnJvfuAx2cVSLH": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TMXqyAhzUy1EUFfqScCibDkiLA1YNepggK": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TVrNQ6ctPXvFxGedYiJQRC3WUtum3W4sj4": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TYhG4jDWRRyFGfcXBJxeuxHePbz9M5gX79": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TJvRxn5DbaFvvoRqP1u1BcBxriB7YeeKJc": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TXP5P6JQjFNKefwa9uzUbFZdDycL32ZMzU": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TGuedvimBZnMLUcc3VZgnnkZk999999999": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TRiwy4qBk1XSxYKqDWpGzRFRCFV4FfE3RR": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TRCME2awwHPLMnpRS7cpmsWZfHvw9TEMtf": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TSvrFC9y4YatdyDoanYGqBo7jJqHEUUo54": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TLyYfvnxL94tw9DYs1kKt8HUxiqq456789": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TLBaXBaT8rB65sXE1SYBEpnnFJM8y4vFNe": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TWGtYGCcj3iXXCd7dWJ46vU1UWYT4q3xUQ": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TH9Gn9t6thbjRFBWF7ivhfbBmUENLr6dfb": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TJXtbbFtegykmbnzapCSKdYmuHFbM7XLhG": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TCj7oRxk6ayKLvDge4bEqq4W2JChrqmvkJ": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TJiziHQXxqmYfjbsWv9tDCPuTdF7Dv8Cuo": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TVgEgx72dkQDaVqzMsJwviZMkfVbYemVr8": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TWFrNeCMBtqhfH3vJo7mYNBF7U52xjYXFM": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TBHSs9mSGMLfjkYj7NsBBevxEkmFhCPRHz": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TVa4GeUkw8ND9pLx3nmVo2TSNguHtAA4Nh": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TW9tuT7jGhfbxs8VgAJ3NWaz8ZUXwrmFnP": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TAGJjeThshdmYLywGjT5TnRMSLjwf2w1XK": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TK35BNHLAMDwhwypzCqv1N57CJXW3LQZCm": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TDc4ZnJXP5bJFvyo8JquzgEMmmmmmmmmmm": {
+          "role": "Customer receiving address",
+          "roles_observed": "Customer receiving address x1",
+          "note": ""
+        },
+        "TVud6AQ4nMQsVXUm4CvPQQ8Ygj9LUyhHyV": {
+          "role": "Unclassified",
+          "roles_observed": "Unclassified x4",
+          "note": ""
+        },
+        "TPsjfDqBBXoMfHSbUWMqMAW9RktbGrCyCH": {
+          "role": "Unclassified",
+          "roles_observed": "Unclassified x1",
+          "note": ""
+        }
+      }
+    },
+    {
+      "name": "\"TGR Exchange\" crypto cash-out scam case",
+      "repo_url": "https://github.com/Kristina89-oss/TGR-scam-exchange-case",
+      "addresses": {
+        "0xbccfd2d86e0d55073253ab0f332f3a2cda59d42e": {
+          "role": "Victim -> first recipient (TGR Exchange)",
+          "note": "Received 1400.316487 USDT from the victim's wallet on 21 Aug 2026, then forwarded it onward in a single transaction that split into two transfers"
+        },
+        "0x63961c584cbf782d8d0ba132c0fdcee7eb18468e": {
+          "role": "Second hop / collector",
+          "note": "Received 1398 USDT (the other 1.064404 USDT of the same incoming transaction went straight to the fee hub); received from 16 distinct senders over ~3 months in total; this address also appears in a separate Chainabuse report"
+        },
+        "0xdc8ca437b104c41888250ad9832d44a6294bb3c0": {
+          "role": "Intermediate mule 1",
+          "note": "One-off pass-through, received 37.11 USDT"
+        },
+        "0xbdf263fd97d6d9c1e51f546bd1ee6e848d17fc7d": {
+          "role": "Intermediate mule 2",
+          "note": "One-off pass-through, received 6.11 USDT"
+        },
+        "0x72f65bd189833134d5f72a32f4b9c5ed862cef4f": {
+          "role": "Intermediate mule 3",
+          "note": "One-off pass-through, received 80.02 USDT"
+        },
+        "0xb096fa7b43865a00994c52df3d2e8d5d55009cc4": {
+          "role": "Intermediate mule 4",
+          "note": "One-off pass-through, received 31.92 USDT"
+        },
+        "0x4b742ad5ca91969e82aefb80072ae59121a3d72a": {
+          "role": "CENTRAL FEE HUB",
+          "note": "Collects a small fee (~$1-1.5) on almost every transaction passed through it by the collectors; active for nearly 2 years; appears in 2 unrelated Chainabuse reports (this one, plus a May 2026 hack report)"
+        },
+        "0x5e43e9887c1d6dfd53104b1f38682f75ecb3adf3": {
+          "role": "Top payer into fee hub #1",
+          "note": "Sharp balance spikes up to $1,400 followed by an immediate sweep to zero"
+        },
+        "0x7fa5278a4c192864c1d9fbcf0da572d142b51874": {
+          "role": "Top payer into fee hub #2",
+          "note": "Active for 153 days; balance-history peak ~$1.2M; the largest of the addresses individually checked by current balance"
+        },
+        "0xa4ec5165e03d97074f61287e15ae304945ac21ef": {
+          "role": "Top payer into fee hub #3",
+          "note": "Active for 178 days"
+        },
+        "0xe2d7bc58b306d6080389516cd63b7f52da301227": {
+          "role": "Top payer into fee hub #4",
+          "note": "Active for 185 days"
+        },
+        "0x1e0ab3ecbf2eb2aa09e50f77386b65cd87bd5883": {
+          "role": "Top payer into fee hub #5",
+          "note": "Brand-new wallet, only 7 days of activity -- the scheme keeps spinning up new ones"
+        },
+        "0x607e43af30267a5a5c7d57a9feb1915ba13c5b02": {
+          "role": "Top payer into fee hub #6",
+          "note": "Active for 264 days, now almost fully drained"
+        },
+        "1DFN2R8w1Qos6Cwi4kp68ACZLSHHFeaRFq": {
+          "role": "BTC address used in an unrelated sextortion spam campaign",
+          "note": "41 separate Chainabuse complaints between 18-24 Aug 2026 (template extortion email); the address itself has 0 transactions and 0 balance -- nobody paid"
+        }
+      }
+    }
+  ]
+}
