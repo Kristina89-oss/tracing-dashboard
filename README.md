@@ -19,13 +19,20 @@ API calls documented below.
 > manually before treating any finding as fact — see
 > [Limitations](#limitations--disclaimers) below.
 
-## Screenshot
+## Screenshots
 
-Checking a public, OFAC-sanctioned Lazarus Group address — direct sanctions
-hit, sanctioned counterparties found on-chain, and an external malicious-
-address label, all surfaced automatically:
+Both checking the same public, OFAC-sanctioned Lazarus Group address.
 
-![Dashboard screenshot](docs/screenshot.png)
+**Risk scoring:** a direct sanctions hit, sanctioned counterparties found
+on-chain, and an external malicious-address label, all surfaced
+automatically:
+
+![Risk scoring and FATF flags](docs/screenshot.png)
+
+**Activity analysis:** the day/hour heatmap, largest individual
+transactions, and largest counterparties by total volume:
+
+![Activity heatmap and largest transactions](docs/screenshot2.png)
 
 ## Features
 
