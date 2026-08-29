@@ -64,6 +64,13 @@ sit next to each other, as shown above, for it to run. `bridgetrail` is
 started automatically as a background subprocess on launch (`npm run web`)
 if it isn't already running.
 
+All four are public repos:
+
+- [etherscan-client](https://github.com/Kristina89-oss/etherscan-client)
+- [chainabuse-client](https://github.com/Kristina89-oss/chainabuse-client)
+- [mixer-tracing-tools](https://github.com/Kristina89-oss/mixer-tracing-tools)
+- [bridgetrail](https://github.com/Kristina89-oss/bridgetrail)
+
 ## Setup
 
 **Prerequisites:** Python 3.12+, Node.js 18+ (for bridgetrail), free API
@@ -71,8 +78,14 @@ keys from [Etherscan](https://etherscan.io/apis) and
 [Chainabuse](https://docs.chainabuse.com/) (10 requests/month on the free
 tier — the dashboard degrades gracefully once that's exhausted).
 
-1. Clone this repo alongside `etherscan-client`, `chainabuse-client`,
-   `mixer-tracing-tools`, and `bridgetrail` as shown above.
+1. Clone this repo alongside its four sibling repos, as shown above:
+   ```bash
+   git clone https://github.com/Kristina89-oss/tracing-dashboard.git
+   git clone https://github.com/Kristina89-oss/etherscan-client.git
+   git clone https://github.com/Kristina89-oss/chainabuse-client.git
+   git clone https://github.com/Kristina89-oss/mixer-tracing-tools.git
+   git clone https://github.com/Kristina89-oss/bridgetrail.git
+   ```
 2. Add your API keys:
    - `etherscan-client/.env` → `ETHERSCAN_API_KEY=...`
    - `chainabuse-client/.env` → `CHAINABUSE_API_KEY=...`
